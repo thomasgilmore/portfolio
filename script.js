@@ -15,3 +15,11 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+$('.projectPicture').hover(function() {
+  $('.projectTitle').removeClass('hide');
+  $('.projectTitle').addClass('fadein');
+}, function() {
+  $('.projectTitle').addClass('fadeout');
+  $('.projectTitle').removeClass('fadein');
+})
