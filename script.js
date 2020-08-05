@@ -16,10 +16,10 @@ function myFunction() {
   }
 }
 
-$('.projectPicture').hover(function() {
-  $('.projectTitle').removeClass('hide');
-  $('.projectTitle').addClass('fadein');
+$('.projectPictureReactStore').hover(function() {
+  $('.projectTitleReactStore').removeClass('hide');
+  $('.projectTitleReactStore').addClass('fadein');
 }, function() {
-  $('.projectTitle').addClass('fadeout');
-  $('.projectTitle').removeClass('fadein');
+  $('.projectTitleReactStore').addClass('fadeout');
+  $('.projectTitleReactStore').removeClass('fadein');
 })
