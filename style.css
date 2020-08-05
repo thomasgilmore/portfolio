@@ -147,16 +147,16 @@
   }
 }
 
-.projectTitle {
-  
+.projectTitleReactStore {
+  font-size: 25px;
 }
 
-.projectPicture {
+.projectPictureReactStore {
   max-width: 250px;
   opacity: 1;
   transition: 0.5s;
 }
 
-.projectPicture:hover {
+.projectPictureReactStore:hover {
   opacity: 0.5;
 }
