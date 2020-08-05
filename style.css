@@ -67,18 +67,18 @@
 
 .fadeout {
   opacity: 0;
-  animation: fadeout 1s;
-    -moz-animation: fadeout 1s; /* Firefox */
-    -webkit-animation: fadeout 1s; /* Safari and Chrome */
-    -o-animation: fadeout 1s; /* Opera */
+  animation: fadeout 0.5s;
+    -moz-animation: fadeout 0.5s; /* Firefox */
+    -webkit-animation: fadeout 0.5s; /* Safari and Chrome */
+    -o-animation: fadeout 0.5s; /* Opera */
 }
 
 .fadein {
   opacity: 1;
-  animation: fadein 1s;
-    -moz-animation: fadein 1s; /* Firefox */
-    -webkit-animation: fadein 1s; /* Safari and Chrome */
-    -o-animation: fadein 1s; /* Opera */
+  animation: fadein 0.5s;
+    -moz-animation: fadein 0.5s; /* Firefox */
+    -webkit-animation: fadein 0.5s; /* Safari and Chrome */
+    -o-animation: fadein 0.5s; /* Opera */
 }
 
 @keyframes fadein {
@@ -153,4 +153,10 @@
 
 .projectPicture {
   max-width: 250px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.projectPicture:hover {
+  opacity: 0.5;
 }
