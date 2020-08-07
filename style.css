@@ -37,7 +37,20 @@
 
 #home {
   font-size: 25px;
-  padding: 41vh 20vw;
+  padding: 46vh 35vw;
+  text-align: center;
+}
+
+#about {
+  text-align: center;
+  padding: 1.5% 10%;
+}
+
+#portfolio {
+  text-align: center;
+}
+
+#contact {
   text-align: center;
 }
 
@@ -213,7 +226,7 @@
   font-size: 25px;
   font-weight: bold;
   position: absolute;
-  top: 50%;
+  top: 36%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -258,6 +271,55 @@
 }
 
 .textExpensifyApp {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 0px 1px 4px gray;
+}
+
+.containerIndecisionApp {
+  position: relative;
+  width: 25%;
+}
+
+.imageIndecisionApp {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayIndecisionApp {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url(./img/projects/indecision-app.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-image-repeat: stretch;
+}
+
+.containerIndecisionApp:hover {
+  opacity: 0.75;
+}
+
+.overlayIndecisionApp:hover {
+  opacity: 1;
+}
+
+.textIndecisionApp {
   color: black;
   font-size: 25px;
   font-weight: bold;
