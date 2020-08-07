@@ -6,6 +6,7 @@
 #navbar {
     overflow: hidden;
     background-color: #333;
+    z-index: 100;
   }
   
   /* Navbar links */
@@ -340,7 +341,7 @@
   border-radius: 5px;
   background-color: #f2f2f2;
   margin: 25px auto;
-  padding: 10px;
+  padding: 15px;
   width: 75%;
 }
 
