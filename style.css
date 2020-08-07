@@ -336,9 +336,17 @@
 
 
 
+.contactForm {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin: 25px auto;
+  padding: 10px;
+  width: 75%;
+}
+
 input[type=text], textarea {
-  width: 60%;
-  padding: 12px;
+  width: 90%;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
