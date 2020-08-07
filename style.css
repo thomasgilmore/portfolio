@@ -41,14 +41,21 @@
   text-align: center;
 }
 
-.card {
+/* .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
   text-align: center;
-}
+} */
 
 .container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+}
+
+.project {
   position: relative;
   text-align: center;
   /* color: white; */
@@ -147,16 +154,119 @@
   }
 }
 
-.projectTitleReactStore {
+.projectTitleReactStore,
+.projectTitleExpensifyApp {
   font-size: 25px;
 }
 
-.projectPictureReactStore {
+.projectPictureReactStore,
+.projectPictureExpensifyApp {
   max-width: 250px;
   opacity: 1;
   transition: 0.5s;
 }
 
-.projectPictureReactStore:hover {
+.projectPictureReactStore:hover,
+.projectPictureExpensifyApp:hover {
   opacity: 0.5;
+}
+
+
+
+.containerReactStore {
+  position: relative;
+  width: 25%;
+}
+
+.imageReactStore {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayReactStore {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url(./img/projects/store.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-image-repeat: stretch;
+}
+
+.containerReactStore:hover {
+  opacity: 0.75;
+}
+
+.overlayReactStore:hover {
+  opacity: 1;
+}
+
+.textReactStore {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 0px 1px 4px gray;
+}
+
+.containerExpensifyApp {
+  position: relative;
+  width: 25%;
+}
+
+.imageExpensifyApp {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayExpensifyApp {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url(./img/projects/expensify.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-image-repeat: stretch;
+}
+
+.containerExpensifyApp:hover {
+  opacity: 0.75;
+}
+
+.overlayExpensifyApp:hover {
+  opacity: 1;
+}
+
+.textExpensifyApp {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 0px 1px 4px gray;
 }
