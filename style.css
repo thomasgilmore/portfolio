@@ -36,6 +36,10 @@
     padding-top: 60px;
   }
 
+.paddingForAbout {
+  margin-top: 46px;
+}
+
 #home {
   font-size: 25px;
   padding: 46vh 35vw;
