@@ -59,6 +59,10 @@
   text-align: center;
 }
 
+.portfolioTitle {
+  margin: 2px 0 15px 0;
+}
+
 #contact {
   text-align: center;
 }
