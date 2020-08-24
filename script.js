@@ -37,3 +37,15 @@ function myFunction() {
 //   $('.projectTitleExpensifyApp').addClass('fadeout');
 //   $('.projectTitleExpensifyApp').removeClass('fadein');
 // })
+
+$('.overlayReactStore').on('click', function() {
+  $('.containerReactStoreClicked').css('visibility', 'visible');
+});
+
+// $('.containerReactStoreClicked').on('click', function() {
+//   $('.containerReactStoreClicked').css('visibility', 'hidden');
+// })
+
+$('.closecontainerReactStoreClicked').on('click', function() {
+  $('.containerReactStoreClicked').css('visibility', 'hidden');
+})
