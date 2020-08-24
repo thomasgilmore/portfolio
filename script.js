@@ -19,21 +19,21 @@ function myFunction() {
   }
 }
 
-$('.projectPictureReactStore').hover(function() {
-  $('.projectTitleReactStore').removeClass('hide');
-  $('.projectTitleReactStore').addClass('fadein');
-}, function() {
-  if ($('.projectTitleReactStore').hover(function() {
-    console.log('mouse is over title');
-  }))
-  $('.projectTitleReactStore').addClass('fadeout');
-  $('.projectTitleReactStore').removeClass('fadein');
-})
+// $('.projectPictureReactStore').hover(function() {
+//   $('.projectTitleReactStore').removeClass('hide');
+//   $('.projectTitleReactStore').addClass('fadein');
+// }, function() {
+//   if ($('.projectTitleReactStore').hover(function() {
+//     console.log('mouse is over title');
+//   }))
+//   $('.projectTitleReactStore').addClass('fadeout');
+//   $('.projectTitleReactStore').removeClass('fadein');
+// })
 
-$('.projectPictureExpensifyApp').hover(function() {
-  $('.projectTitleExpensifyApp').removeClass('hide');
-  $('.projectTitleExpensifyApp').addClass('fadein');
-}, function() {
-  $('.projectTitleExpensifyApp').addClass('fadeout');
-  $('.projectTitleExpensifyApp').removeClass('fadein');
-})
+// $('.projectPictureExpensifyApp').hover(function() {
+//   $('.projectTitleExpensifyApp').removeClass('hide');
+//   $('.projectTitleExpensifyApp').addClass('fadein');
+// }, function() {
+//   $('.projectTitleExpensifyApp').addClass('fadeout');
+//   $('.projectTitleExpensifyApp').removeClass('fadein');
+// })
