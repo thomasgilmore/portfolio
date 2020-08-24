@@ -248,6 +248,18 @@
   text-shadow: 0px 1px 4px gray;
 }
 
+.containerReactStoreClicked {
+  background: white;
+  padding: 25px;
+  position: absolute;
+  visibility: hidden;
+  z-index: 99;
+}
+
+.imageReactStoreClicked {
+  width: 50%;
+}
+
 .containerExpensifyApp {
   position: relative;
   width: 25%;
