@@ -256,6 +256,15 @@
   z-index: 99;
 }
 
+.closecontainerReactStoreClicked {
+  background: white;
+  border: 0;
+  font-size: 20px;
+  left: 75%;
+  padding: 0 5px;
+  position: absolute;
+}
+
 .imageReactStoreClicked {
   width: 50%;
 }
