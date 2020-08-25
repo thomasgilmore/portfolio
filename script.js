@@ -48,4 +48,4 @@ $('.overlayReactStore').on('click', function() {
 
 $('.closecontainerReactStoreClicked').on('click', function() {
   $('.containerReactStoreClicked').css('visibility', 'hidden');
-})
+});
