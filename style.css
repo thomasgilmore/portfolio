@@ -250,10 +250,19 @@
 
 .containerReactStoreClicked {
   background: white;
-  padding: 25px;
+  padding: 20px 20px 35px 20px;
   position: absolute;
   visibility: hidden;
   z-index: 99;
+}
+
+.viewSiteButton {
+  background: white;
+  border: 0;
+  font-size: 20px;
+  left: 25%;
+  padding: 0 5px;
+  position: absolute;
 }
 
 .closecontainerReactStoreClicked {
