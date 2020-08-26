@@ -265,7 +265,7 @@
   border: #E31B6D solid 5px ;
   color: white;
   font-size: 20px;
-  left: 25%;
+  left: 10%;
   padding: 5px 5px;
   position: absolute;
 }
@@ -274,8 +274,8 @@
   background: white;
   border: 0;
   font-size: 20px;
-  left: 75%;
-  padding: 0 5px;
+  left: 90%;
+  padding: 12px 5px 0px 5px;
   position: absolute;
 }
 
