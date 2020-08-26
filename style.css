@@ -38,6 +38,11 @@
 
 .paddingForAbout {
   margin-top: 47px;
+  padding-top: 0;
+}
+
+.aboutTitle {
+  padding-top: 30px;
 }
 
 #home {
@@ -60,12 +65,19 @@
 }
 
 .portfolioTitle {
-  margin: 2px 0 15px 0;
+  margin: 0 0 15px 0;
+  padding-top: 45px;
 }
 
 #contact {
+  margin-top: 45px;
+  padding-top: 10px;
   text-align: center;
 }
+
+/* #contact.contactForm {
+  margin-top: 30px;
+} */
 
 /* .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
