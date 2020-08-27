@@ -61,3 +61,23 @@ $(document).mouseup(function(e) {
       }
     }
 });
+
+$('.overlayExpensifyApp').on('click', function() {
+  $('.containerExpensifyAppClicked').css('visibility', 'visible');
+});
+
+$('.closecontainerExpensifyAppClicked').on('click', function() {
+  $('.containerExpensifyAppClicked').css('visibility', 'hidden');
+});
+
+$(document).mouseup(function(e) {
+  var popUpWindow = $(".containerExpensifyAppClicked");
+  var projectPicture = $('.overlayExpensifyApp');
+
+  // if the target of the click isn't the container nor a descendant of the container
+  if (!popUpWindow.is(e.target) && popUpWindow.has(e.target).length === 0) {
+    if (!projectPicture.is(e.target) && projectPicture.has(e.target).length === 0) {
+      $('.containerExpensifyAppClicked').css('visibility', 'hidden');
+    }
+  }
+});
