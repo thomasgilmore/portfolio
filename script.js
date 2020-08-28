@@ -101,3 +101,23 @@ $(document).mouseup(function(e) {
     }
   }
 });
+
+$('.overlayChatApp').on('click', function() {
+  $('.containerChatAppClicked').css('visibility', 'visible');
+});
+
+$('.closecontainerChatAppClicked').on('click', function() {
+  $('.containerChatAppClicked').css('visibility', 'hidden');
+});
+
+$(document).mouseup(function(e) {
+    var popUpWindow = $(".containerChatAppClicked");
+    var projectPicture = $('.overlayChatApp');
+
+    // if the target of the click isn't the container nor a descendant of the container
+    if (!popUpWindow.is(e.target) && popUpWindow.has(e.target).length === 0) {
+      if (!projectPicture.is(e.target) && projectPicture.has(e.target).length === 0) {
+        $('.containerChatAppClicked').css('visibility', 'hidden');
+      }
+    }
+});
