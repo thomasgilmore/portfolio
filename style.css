@@ -504,7 +504,7 @@
   box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
-.viewSiteButton {
+/* .viewSiteButton {
   background: #E31B6D;
   border: #E31B6D solid 5px ;
   color: white;
@@ -512,7 +512,7 @@
   left: 10%;
   padding: 5px 5px;
   position: absolute;
-}
+} */
 
 .closecontainerChatAppClicked {
   background: white;
@@ -527,18 +527,18 @@
   width: 90%;
 }
 
-.containerExpensifyApp {
+.containerWeatherApp {
   position: relative;
   width: 25%;
 }
 
-.imageExpensifyApp {
+.imageWeatherApp {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.overlayExpensifyApp {
+.overlayWeatherApp {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -548,26 +548,26 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(./img/projects/expensify-with-expenses.png);
+  background-image: url(./img/projects/weather-app.png);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
 }
 
-.containerExpensifyApp:hover {
+.containerWeatherApp:hover {
   opacity: 0.75;
 }
 
-.overlayExpensifyApp:hover {
+.overlayWeatherApp:hover {
   opacity: 1;
 }
 
-.textExpensifyApp {
+.textWeatherApp {
   color: black;
   font-size: 25px;
   font-weight: bold;
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -576,7 +576,7 @@
   text-shadow: 0px 1px 4px gray;
 }
 
-.containerExpensifyAppClicked {
+.containerWeatherAppClicked {
   background: white;
   padding: 20px 20px 50px 20px;
   position: absolute;
@@ -588,7 +588,7 @@
   box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
-.closecontainerExpensifyAppClicked {
+.closecontainerWeatherAppClicked {
   background: white;
   border: 0;
   font-size: 20px;
@@ -597,7 +597,7 @@
   position: absolute;
 }
 
-.imageExpensifyAppClicked {
+.imageWeatherAppClicked {
   width: 90%;
 }
 
