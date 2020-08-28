@@ -443,6 +443,238 @@
   width: 90%;
 }
 
+.containerChatApp {
+  position: relative;
+  width: 25%;
+}
+
+.imageChatApp {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayChatApp {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url(./img/projects/chat-app.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-image-repeat: stretch;
+}
+
+.containerChatApp:hover {
+  opacity: 0.75;
+}
+
+.overlayChatApp:hover {
+  opacity: 1;
+}
+
+.textChatApp {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 0px 1px 4px gray;
+}
+
+.containerChatAppClicked {
+  background: white;
+  padding: 20px 20px 50px 20px;
+  position: absolute;
+  visibility: hidden;
+  width: 75%;
+  z-index: 99;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.viewSiteButton {
+  background: #E31B6D;
+  border: #E31B6D solid 5px ;
+  color: white;
+  font-size: 20px;
+  left: 10%;
+  padding: 5px 5px;
+  position: absolute;
+}
+
+.closecontainerChatAppClicked {
+  background: white;
+  border: 0;
+  font-size: 20px;
+  left: 90%;
+  padding: 12px 5px 0px 5px;
+  position: absolute;
+}
+
+.imageChatAppClicked {
+  width: 90%;
+}
+
+.containerExpensifyApp {
+  position: relative;
+  width: 25%;
+}
+
+.imageExpensifyApp {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayExpensifyApp {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url(./img/projects/expensify-with-expenses.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-image-repeat: stretch;
+}
+
+.containerExpensifyApp:hover {
+  opacity: 0.75;
+}
+
+.overlayExpensifyApp:hover {
+  opacity: 1;
+}
+
+.textExpensifyApp {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 0px 1px 4px gray;
+}
+
+.containerExpensifyAppClicked {
+  background: white;
+  padding: 20px 20px 50px 20px;
+  position: absolute;
+  visibility: hidden;
+  width: 75%;
+  z-index: 99;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.closecontainerExpensifyAppClicked {
+  background: white;
+  border: 0;
+  font-size: 20px;
+  left: 90%;
+  padding: 12px 5px 0px 5px;
+  position: absolute;
+}
+
+.imageExpensifyAppClicked {
+  width: 90%;
+}
+
+.containerIndecisionApp {
+  position: relative;
+  width: 25%;
+}
+
+.imageIndecisionApp {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayIndecisionApp {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url(./img/projects/indecision-app.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-image-repeat: stretch;
+}
+
+.containerIndecisionApp:hover {
+  opacity: 0.75;
+}
+
+.overlayIndecisionApp:hover {
+  opacity: 1;
+}
+
+.textIndecisionApp {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 0px 1px 4px gray;
+}
+
+.containerIndecisionAppClicked {
+  background: white;
+  padding: 20px 20px 50px 20px;
+  position: absolute;
+  visibility: hidden;
+  width: 75%;
+  z-index: 99;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.closecontainerIndecisionAppClicked {
+  background: white;
+  border: 0;
+  font-size: 20px;
+  left: 90%;
+  padding: 12px 5px 0px 5px;
+  position: absolute;
+}
+
+.imageIndecisionAppClicked {
+  width: 90%;
+}
+
 
 
 
