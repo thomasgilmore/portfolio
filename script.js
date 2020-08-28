@@ -81,3 +81,23 @@ $(document).mouseup(function(e) {
     }
   }
 });
+
+$('.overlayIndecisionApp').on('click', function() {
+  $('.containerIndecisionAppClicked').css('visibility', 'visible');
+});
+
+$('.closecontainerIndecisionAppClicked').on('click', function() {
+  $('.containerIndecisionAppClicked').css('visibility', 'hidden');
+});
+
+$(document).mouseup(function(e) {
+  var popUpWindow = $(".containerIndecisionAppClicked");
+  var projectPicture = $('.overlayIndecisionApp');
+
+  // if the target of the click isn't the container nor a descendant of the container
+  if (!popUpWindow.is(e.target) && popUpWindow.has(e.target).length === 0) {
+    if (!projectPicture.is(e.target) && projectPicture.has(e.target).length === 0) {
+      $('.containerIndecisionAppClicked').css('visibility', 'hidden');
+    }
+  }
+});
