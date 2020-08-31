@@ -504,15 +504,227 @@
   box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
-/* .viewSiteButton {
-  background: #E31B6D;
-  border: #E31B6D solid 5px ;
-  color: white;
+.closecontainerChatAppClicked {
+  background: white;
+  border: 0;
   font-size: 20px;
-  left: 10%;
-  padding: 5px 5px;
+  left: 90%;
+  padding: 12px 5px 0px 5px;
   position: absolute;
-} */
+}
+
+.imageChatAppClicked {
+  width: 90%;
+}
+
+.containerFriendsTrivia {
+  position: relative;
+  width: 25%;
+}
+
+.imageFriendsTrivia {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayFriendsTrivia {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url(./img/projects/friends-trivia.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-image-repeat: stretch;
+}
+
+.containerFriendsTrivia:hover {
+  opacity: 0.75;
+}
+
+.overlayFriendsTrivia:hover {
+  opacity: 1;
+}
+
+.textFriendsTrivia {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 0px 1px 4px gray;
+}
+
+.containerFriendsTriviaClicked {
+  background: white;
+  padding: 20px 20px 50px 20px;
+  position: absolute;
+  visibility: hidden;
+  width: 75%;
+  z-index: 99;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.closecontainerFriendsTriviaClicked {
+  background: white;
+  border: 0;
+  font-size: 20px;
+  left: 90%;
+  padding: 12px 5px 0px 5px;
+  position: absolute;
+}
+
+.imageFriendsTriviaClicked {
+  width: 90%;
+}
+
+.containerBlogWebsite {
+  position: relative;
+  width: 25%;
+}
+
+.imageBlogWebsite {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayBlogWebsite {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url(./img/projects/blog-website.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-image-repeat: stretch;
+}
+
+.containerBlogWebsite:hover {
+  opacity: 0.75;
+}
+
+.overlayBlogWebsite:hover {
+  opacity: 1;
+}
+
+.textBlogWebsite {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 0px 1px 4px gray;
+}
+
+.containerBlogWebsiteClicked {
+  background: white;
+  padding: 20px 20px 50px 20px;
+  position: absolute;
+  visibility: hidden;
+  width: 75%;
+  z-index: 99;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.closecontainerBlogWebsiteClicked {
+  background: white;
+  border: 0;
+  font-size: 20px;
+  left: 90%;
+  padding: 12px 5px 0px 5px;
+  position: absolute;
+}
+
+.imageBlogWebsiteClicked {
+  width: 90%;
+}
+
+.containerChatApp {
+  position: relative;
+  width: 25%;
+}
+
+.imageChatApp {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayChatApp {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url(./img/projects/chat-app.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-image-repeat: stretch;
+}
+
+.containerChatApp:hover {
+  opacity: 0.75;
+}
+
+.overlayChatApp:hover {
+  opacity: 1;
+}
+
+.textChatApp {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 0px 1px 4px gray;
+}
+
+.containerChatAppClicked {
+  background: white;
+  padding: 20px 20px 50px 20px;
+  position: absolute;
+  visibility: hidden;
+  width: 75%;
+  z-index: 99;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
 
 .closecontainerChatAppClicked {
   background: white;
