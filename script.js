@@ -122,6 +122,66 @@ $(document).mouseup(function(e) {
     }
 });
 
+$('.overlayFriendsTrivia').on('click', function() {
+  $('.containerFriendsTriviaClicked').css('visibility', 'visible');
+});
+
+$('.closecontainerFriendsTriviaClicked').on('click', function() {
+  $('.containerFriendsTriviaClicked').css('visibility', 'hidden');
+});
+
+$(document).mouseup(function(e) {
+  var popUpWindow = $(".containerFriendsTriviaClicked");
+  var projectPicture = $('.overlayFriendsTrivia');
+
+  // if the target of the click isn't the container nor a descendant of the container
+  if (!popUpWindow.is(e.target) && popUpWindow.has(e.target).length === 0) {
+    if (!projectPicture.is(e.target) && projectPicture.has(e.target).length === 0) {
+      $('.containerFriendsTriviaClicked').css('visibility', 'hidden');
+    }
+  }
+});
+
+$('.overlayBlogWebsite').on('click', function() {
+  $('.containerBlogWebsiteClicked').css('visibility', 'visible');
+});
+
+$('.closecontainerBlogWebsiteClicked').on('click', function() {
+  $('.containerBlogWebsiteClicked').css('visibility', 'hidden');
+});
+
+$(document).mouseup(function(e) {
+  var popUpWindow = $(".containerBlogWebsiteClicked");
+  var projectPicture = $('.overlayBlogWebsite');
+
+  // if the target of the click isn't the container nor a descendant of the container
+  if (!popUpWindow.is(e.target) && popUpWindow.has(e.target).length === 0) {
+    if (!projectPicture.is(e.target) && projectPicture.has(e.target).length === 0) {
+      $('.containerBlogWebsiteClicked').css('visibility', 'hidden');
+    }
+  }
+});
+
+$('.overlayChatApp').on('click', function() {
+  $('.containerChatAppClicked').css('visibility', 'visible');
+});
+
+$('.closecontainerChatAppClicked').on('click', function() {
+  $('.containerChatAppClicked').css('visibility', 'hidden');
+});
+
+$(document).mouseup(function(e) {
+    var popUpWindow = $(".containerChatAppClicked");
+    var projectPicture = $('.overlayChatApp');
+
+    // if the target of the click isn't the container nor a descendant of the container
+    if (!popUpWindow.is(e.target) && popUpWindow.has(e.target).length === 0) {
+      if (!projectPicture.is(e.target) && projectPicture.has(e.target).length === 0) {
+        $('.containerChatAppClicked').css('visibility', 'hidden');
+      }
+    }
+});
+
 $('.overlayWeatherApp').on('click', function() {
   $('.containerWeatherAppClicked').css('visibility', 'visible');
 });
