@@ -142,22 +142,22 @@ $(document).mouseup(function(e) {
   }
 });
 
-$('.overlayBlogWebsite').on('click', function() {
-  $('.containerBlogWebsiteClicked').css('visibility', 'visible');
+$('.overlayTheBigBangTheoryTrivia').on('click', function() {
+  $('.containerTheBigBangTheoryTriviaClicked').css('visibility', 'visible');
 });
 
-$('.closecontainerBlogWebsiteClicked').on('click', function() {
-  $('.containerBlogWebsiteClicked').css('visibility', 'hidden');
+$('.closecontainerTheBigBangTheoryTriviaClicked').on('click', function() {
+  $('.containerTheBigBangTheoryTriviaClicked').css('visibility', 'hidden');
 });
 
 $(document).mouseup(function(e) {
-  var popUpWindow = $(".containerBlogWebsiteClicked");
-  var projectPicture = $('.overlayBlogWebsite');
+  var popUpWindow = $(".containerTheBigBangTheoryTriviaClicked");
+  var projectPicture = $('.overlayTheBigBangTheoryTrivia');
 
   // if the target of the click isn't the container nor a descendant of the container
   if (!popUpWindow.is(e.target) && popUpWindow.has(e.target).length === 0) {
     if (!projectPicture.is(e.target) && projectPicture.has(e.target).length === 0) {
-      $('.containerBlogWebsiteClicked').css('visibility', 'hidden');
+      $('.containerTheBigBangTheoryTriviaClicked').css('visibility', 'hidden');
     }
   }
 });
