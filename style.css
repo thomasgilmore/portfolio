@@ -467,7 +467,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(./img/projects/chat-app.png);
+  background-image: url(./img/projects/chat-app-with-chat-square.png);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
@@ -500,6 +500,7 @@
   padding: 20px 20px 50px 20px;
   position: absolute;
   visibility: hidden;
+  height: 60%;
   width: 75%;
   z-index: 99;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
@@ -517,7 +518,7 @@
 }
 
 .imageChatAppClicked {
-  width: 90%;
+  width: 60%;
 }
 
 .containerFriendsTrivia {
@@ -689,7 +690,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(./img/projects/chat-app.png);
+  background-image: url(./img/projects/chat-app-with-chat-square.png);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
@@ -722,6 +723,7 @@
   padding: 20px 20px 50px 20px;
   position: absolute;
   visibility: hidden;
+  height: 60%;
   width: 75%;
   z-index: 99;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
@@ -739,7 +741,7 @@
 }
 
 .imageChatAppClicked {
-  width: 90%;
+  width: 60%;
 }
 
 .containerWeatherApp {
