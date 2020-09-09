@@ -542,7 +542,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(./img/projects/friends-trivia.png);
+  background-image: url(./img/projects/friends-trivia-square.png);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
@@ -575,6 +575,7 @@
   padding: 20px 20px 50px 20px;
   position: absolute;
   visibility: hidden;
+  height: 60%;
   width: 75%;
   z-index: 99;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
@@ -592,7 +593,7 @@
 }
 
 .imageFriendsTriviaClicked {
-  width: 90%;
+  width: 60%;
 }
 
 .containerTheBigBangTheoryTrivia {
