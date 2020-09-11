@@ -162,22 +162,22 @@ $(document).mouseup(function(e) {
   }
 });
 
-$('.overlayChatApp').on('click', function() {
-  $('.containerChatAppClicked').css('visibility', 'visible');
+$('.overlayMovieDatabase').on('click', function() {
+  $('.containerMovieDatabaseClicked').css('visibility', 'visible');
 });
 
-$('.closecontainerChatAppClicked').on('click', function() {
-  $('.containerChatAppClicked').css('visibility', 'hidden');
+$('.closecontainerMovieDatabaseClicked').on('click', function() {
+  $('.containerMovieDatabaseClicked').css('visibility', 'hidden');
 });
 
 $(document).mouseup(function(e) {
-    var popUpWindow = $(".containerChatAppClicked");
-    var projectPicture = $('.overlayChatApp');
+    var popUpWindow = $(".containerMovieDatabaseClicked");
+    var projectPicture = $('.overlayMovieDatabase');
 
     // if the target of the click isn't the container nor a descendant of the container
     if (!popUpWindow.is(e.target) && popUpWindow.has(e.target).length === 0) {
       if (!projectPicture.is(e.target) && projectPicture.has(e.target).length === 0) {
-        $('.containerChatAppClicked').css('visibility', 'hidden');
+        $('.containerMovieDatabaseClicked').css('visibility', 'hidden');
       }
     }
 });
