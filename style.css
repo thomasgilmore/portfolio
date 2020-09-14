@@ -46,6 +46,8 @@
 }
 
 #home {
+  background-image: url(./img/background.png);
+  color: white;
   font-size: 25px;
   padding: 46vh 35vw;
   text-align: center;
