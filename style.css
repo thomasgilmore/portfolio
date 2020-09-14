@@ -54,6 +54,19 @@
   text-align: center;
 }
 
+.ViewMyWorkButton {
+  background: none;
+  border: 2px solid #fff;
+  box-sizing: inherit;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 21.33pt;
+  margin-top: 15px;
+  padding: 10px 20px;
+  transition: all 0.5s;
+}
+
 #about {
   text-align: center;
   padding: 1.5% 10%;
