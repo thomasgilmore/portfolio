@@ -76,6 +76,10 @@
   margin: 10px;
 }
 
+.me {
+  width: 200px;
+}
+
 #portfolio {
   text-align: center;
 }
