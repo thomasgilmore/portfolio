@@ -50,8 +50,13 @@
   background-image: url(./img/background.png);
   color: white;
   font-size: 25px;
-  padding: 46vh 35vw;
+  padding: 39vh 30vw;
   text-align: center;
+}
+
+.homeText {
+  font-size: 32pt;
+  line-height: 36pt;
 }
 
 .ViewMyWorkButton {
