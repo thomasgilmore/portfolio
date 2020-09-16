@@ -59,6 +59,10 @@
   line-height: 36pt;
 }
 
+.name {
+  color: #E31B6D;
+}
+
 .ViewMyWorkButton {
   background: none;
   border: 2px solid #fff;
