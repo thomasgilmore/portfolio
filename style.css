@@ -72,6 +72,10 @@
   transition: all 0.5s;
 }
 
+.ViewMyWorkButton:hover {
+  background: #E31B6D;
+}
+
 #about {
   text-align: center;
   padding: 1.5% 10%;
