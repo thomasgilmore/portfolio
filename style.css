@@ -55,8 +55,11 @@
 }
 
 .homeText {
+  font-family: "Raleway";
   font-size: 32pt;
   line-height: 36pt;
+  margin: 0 0 20px 0;
+  text-align: center;
 }
 
 .name {
@@ -71,7 +74,7 @@
   cursor: pointer;
   display: inline-block;
   font-size: 21.33pt;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   padding: 10px 20px;
   transition: all 0.5s;
 }
