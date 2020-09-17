@@ -15,6 +15,7 @@
     float: left;
     display: block;
     text-align: center;
+    margin: 0 20px;
     padding: 14px;
     text-decoration: none;
   }
@@ -22,6 +23,10 @@
   .home, .about,
   .portfolio, .contact {
     color: white;
+    font-family: Raleway;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: color 0.5s;
   }
 
   .nav-click {
