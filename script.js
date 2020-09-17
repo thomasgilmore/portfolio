@@ -19,6 +19,48 @@ function myFunction() {
   }
 }
 
+var section1 = document.querySelector('.home');
+var section2 = document.querySelector('.about');
+var section3 = document.querySelector('.portfolio');
+var section4 = document.querySelector('.contact');
+
+const sections = document.querySelectorAll('.section');
+
+function checkScroll(e) {
+  sections.forEach(sections => {
+    const activeClass = window.scrollY;
+
+    var section_1 = document.getElementById('home');
+    var section_2 = document.getElementById('about');
+    var section_3 = document.getElementById('portfolio');
+    var section_4 = document.getElementById('contact');
+
+    if (activeClass >= section_1.offsetTop-20 && activeClass < section_2.offsetTop-35) {
+      section1.classList.add('nav-click');
+      section2.classList.remove('nav-click');
+      section3.classList.remove('nav-click');
+      section4.classList.remove('nav-click');
+    } else if (activeClass >= section_2.offsetTop-35 && activeClass < section_3.offsetTop-25) {
+      section1.classList.remove('nav-click');
+      section2.classList.add('nav-click');
+      section3.classList.remove('nav-click');
+      section4.classList.remove('nav-click');
+    } else if (activeClass >= section_3.offsetTop-35 && activeClass < section_4.offsetTop-35) {
+      section1.classList.remove('nav-click');
+      section2.classList.remove('nav-click');
+      section3.classList.add('nav-click');
+      section4.classList.remove('nav-click');
+    } else if (activeClass >= section_4.offsetTop-35) {
+      section1.classList.remove('nav-click');
+      section2.classList.remove('nav-click');
+      section3.classList.remove('nav-click');
+      section4.classList.add('nav-click');
+    } 
+  });
+}
+
+window.addEventListener('scroll', checkScroll);
+
 // $('.projectPictureReactStore').hover(function() {
 //   $('.projectTitleReactStore').removeClass('hide');
 //   $('.projectTitleReactStore').addClass('fadein');
