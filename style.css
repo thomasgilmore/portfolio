@@ -19,6 +19,10 @@
     padding: 14px;
     text-decoration: none;
   }
+
+  .navbarClicked {
+    color:  #E31B6D;
+  }
   
   /* Page content */
   .content {
