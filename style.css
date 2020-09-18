@@ -952,8 +952,13 @@
   border-radius: 5px;
   background-color: #f2f2f2;
   margin: 25px auto;
-  padding: 15px;
+  padding: 25px;
   width: 75%;
+}
+
+.contactTitle {
+  font-size: 40px;
+  font-family: Raleway;
 }
 
 input[type=text], textarea {
@@ -984,5 +989,5 @@ button[type=submit]:hover {
 .github-logo {
   display: flex;
   height: 40px;
-  margin: 5px auto 25px auto;
+  margin: 10px auto 30px auto;
 }
