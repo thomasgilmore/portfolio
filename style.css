@@ -115,6 +115,8 @@
 }
 
 .portfolioTitle {
+  font-family: Raleway;
+  font-size: 40px;
   margin: 0 0 15px 0;
   padding-top: 45px;
 }
