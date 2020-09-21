@@ -98,6 +98,7 @@
 
 .ViewMyWorkButton:hover {
   background: #E31B6D;
+  border: 2px solid #E31B6D;
 }
 
 #about {
