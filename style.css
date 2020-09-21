@@ -125,9 +125,9 @@
 }
 
 #contact {
-  margin-top: 100px;
+  margin-top: 110px;
   margin-bottom: 50px;
-  padding-top: 25px;
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -957,11 +957,13 @@
   border-radius: 5px;
   background-color: #f2f2f2;
   margin: 25px auto;
-  padding: 25px;
+  padding: 30px;
   width: 75%;
 }
 
 .contactTitle {
+  margin: 5px;
+  padding: 20px 0;
   font-size: 40px;
   font-family: Raleway;
 }
@@ -994,5 +996,5 @@ button[type=submit]:hover {
 .github-logo {
   display: flex;
   height: 40px;
-  margin: 10px auto 30px auto;
+  margin: 10px auto 80px auto;
 }
