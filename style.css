@@ -148,8 +148,14 @@
 .container {
   display: flex;
   flex-direction: row;
-  margin: auto;
+  flex-wrap: wrap;
+  margin: 30px 100px;
+  /* padding: 20px; */
   justify-content: center;
+}
+
+.container div {
+  flex: 0 0 33.3333%;
 }
 
 .project {
