@@ -2,6 +2,54 @@
   margin: 0;
 }
 
+/* 
+****** To Do ********
+  - Work on felxbox of container 
+  Find below...... (in comments below)
+*/
+
+/* @media (min-width: 200px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px 100px;
+    justify-content: center;
+  }
+  
+  .container div {
+    flex: 0 0 33.3333%;
+  }
+}
+
+@media (min-width: 410px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px 100px;
+    justify-content: center;
+  }
+  
+  .container div {
+    flex: 0 0 33.3333%;
+  }
+}
+
+@media (min-width: 1106px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px 100px;
+    justify-content: center;
+  }
+  
+  .container div {
+    flex: 0 0 33.3333%;
+  }
+} */
+
 /* Style the navbar */
 #navbar {
     overflow: hidden;
@@ -144,6 +192,12 @@
   margin: auto;
   text-align: center;
 } */
+
+/* 
+******* To Do ******
+  - Remove below code...
+  Once flexbox is done. 
+*/
 
 .container {
   display: flex;
