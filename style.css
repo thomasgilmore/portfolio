@@ -8,7 +8,7 @@
   Find below...... (in comments below)
 */
 
-/* @media (min-width: 200px) {
+ @media (min-width: 200px) {
   .container {
     display: flex;
     flex-direction: row;
@@ -48,7 +48,7 @@
   .container div {
     flex: 0 0 33.3333%;
   }
-} */
+}
 
 /* Style the navbar */
 #navbar {
@@ -199,18 +199,18 @@
   Once flexbox is done. 
 */
 
-.container {
+/* .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 30px 100px;
+  margin: 30px 100px; */
   /* padding: 20px; */
-  justify-content: center;
+ /* justify-content: center;
 }
 
 .container div {
   flex: 0 0 33.3333%;
-}
+} */
 
 .project {
   position: relative;
