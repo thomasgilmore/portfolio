@@ -22,7 +22,7 @@
   }
 }
 
-@media (min-width: 410px) {
+@media (min-width: 401px) {
   .container {
     display: flex;
     flex-direction: row;
@@ -32,11 +32,11 @@
   }
   
   .container div {
-    flex: 0 0 33.3333%;
+    flex: 0 0 50%;
   }
 }
 
-@media (min-width: 1106px) {
+@media (min-width: 1170px) {
   .container {
     display: flex;
     flex-direction: row;
