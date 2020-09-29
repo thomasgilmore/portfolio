@@ -127,6 +127,12 @@
     flex: 0 0 33.3333%;
   }
 
+  .containerReactStoreClicked,
+  .containerExpensifyAppClicked,
+  .containerIndecisionAppClicked {
+    margin-top: -25px;
+  }
+
   .containerChatAppClicked, 
   .containerFriendsTriviaClicked, 
   .containerTheBigBangTheoryTriviaClicked {
