@@ -127,6 +127,12 @@
     flex: 0 0 33.3333%;
   }
 
+  .containerChatAppClicked, 
+  .containerFriendsTriviaClicked, 
+  .containerTheBigBangTheoryTriviaClicked {
+    margin-top: 250px;
+  }
+
   .containerMovieDatabaseClicked, 
   .containerWeatherAppClicked, 
   .containerBlogWebsiteClicked {
