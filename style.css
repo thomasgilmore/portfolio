@@ -126,6 +126,12 @@
   .container div {
     flex: 0 0 33.3333%;
   }
+
+  .containerMovieDatabaseClicked, 
+  .containerWeatherAppClicked, 
+  .containerBlogWebsiteClicked {
+    margin-top: 450px;
+  }
 }
 
 /* **** Remove when flexbox is done ***** */
