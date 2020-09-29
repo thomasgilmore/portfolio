@@ -9,6 +9,25 @@
 */
 
  @media (min-width: 200px) {
+  /* Style the navbar */
+  #navbar {
+    overflow: hidden;
+    background-color: #333;
+    padding-left: 15px;
+    z-index: 100;
+  }
+
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 7px;
+    padding: 7px;
+    text-decoration: none;
+  }
+
   .container {
     display: flex;
     flex-direction: row;
@@ -23,6 +42,25 @@
 }
 
 @media (min-width: 500px) {
+  /* Style the navbar */
+  #navbar {
+    overflow: hidden;
+    background-color: #333;
+    padding-left: 20px;
+    z-index: 100;
+  }
+
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 15px;
+    padding: 10px;
+    text-decoration: none;
+  }
+
   .container {
     display: flex;
     flex-direction: row;
@@ -37,6 +75,25 @@
 }
 
 @media (min-width: 1170px) {
+  /* Style the navbar */
+  #navbar {
+    overflow: hidden;
+    background-color: #333;
+    padding-left: 50px;
+    z-index: 100;
+  }
+
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 20px;
+    padding: 14px;
+    text-decoration: none;
+  }
+
   .container {
     display: flex;
     flex-direction: row;
@@ -50,23 +107,24 @@
   }
 }
 
+/* **** Remove when flexbox is done ***** */
 /* Style the navbar */
-#navbar {
+/* #navbar {
     overflow: hidden;
     background-color: #333;
     padding-left: 50px;
     z-index: 100;
-  }
+   } */
   
   /* Navbar links */
-  #navbar a {
+  /* #navbar a {
     float: left;
     display: block;
     text-align: center;
     margin: 0 20px;
     padding: 14px;
     text-decoration: none;
-  }
+  } */ 
 
   .home, .about,
   .portfolio, .contact {
