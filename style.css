@@ -9,6 +9,11 @@
 */
 
  @media (min-width: 200px) {
+  .homeText {
+    font-size: 18pt;
+    line-height: 22pt;
+  }
+
   /* Style the navbar */
   #navbar {
     overflow: hidden;
@@ -42,6 +47,11 @@
 }
 
 @media (min-width: 500px) {
+  .homeText {
+    font-size: 26pt;
+    line-height: 30pt;
+  }
+
   /* Style the navbar */
   #navbar {
     overflow: hidden;
@@ -75,6 +85,11 @@
 }
 
 @media (min-width: 600px) {
+  .homeText {
+    font-size: 32pt;
+    line-height: 36pt;
+  }
+
   /* Style the navbar */
   #navbar {
     overflow: hidden;
@@ -96,6 +111,11 @@
 }
 
 @media (min-width: 1170px) {
+  .homeText {
+    font-size: 32pt;
+    line-height: 36pt;
+  }
+
   /* Style the navbar */
   #navbar {
     overflow: hidden;
@@ -219,8 +239,8 @@
 
 .homeText {
   font-family: "Raleway";
-  font-size: 32pt;
-  line-height: 36pt;
+  /* font-size: 32pt; */
+  /* line-height: 36pt; */
   margin: 0 0 20px 0;
   padding-top: 35vh;
   text-align: center;
