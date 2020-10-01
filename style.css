@@ -116,6 +116,11 @@
     line-height: 36pt;
   }
 
+  .ViewMyWorkButton {
+    font-size: 21.33pt;
+    padding: 10px 20px;
+  }
+
   /* Style the navbar */
   #navbar {
     overflow: hidden;
@@ -257,9 +262,9 @@
   color: white;
   cursor: pointer;
   display: inline-block;
-  font-size: 21.33pt;
+  /* font-size: 21.33pt; */
   /* margin-top: 15px; */
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   transition: all 0.5s;
 }
 
