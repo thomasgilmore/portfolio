@@ -123,6 +123,10 @@
     padding: 14px;
     text-decoration: none;
   }
+
+  .aboutText {
+    margin: 15px 10px;
+  }
 }
 
 @media (min-width: 1170px) {
@@ -153,6 +157,10 @@
     margin: 0 20px;
     padding: 14px;
     text-decoration: none;
+  }
+
+  .aboutText {
+    margin: 15px 100px;
   }
 
   .container {
@@ -293,9 +301,9 @@
   padding: 1.5% 10%;
 }
 
-.aboutText {
+/* .aboutText {
   margin: 15px 100px;
-}
+} */
 
 .me {
   width: 200px;
