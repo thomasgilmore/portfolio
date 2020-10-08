@@ -53,6 +53,24 @@
   .container div {
     flex: 0 0 100%;
   }
+
+  .containerReactStoreClicked,
+  .containerExpensifyAppClicked,
+  .containerIndecisionAppClicked {
+    margin-top: -25px;
+  }
+
+  .containerChatAppClicked, 
+  .containerFriendsTriviaClicked, 
+  .containerTheBigBangTheoryTriviaClicked {
+    margin-top: 250px;
+  }
+
+  .containerMovieDatabaseClicked, 
+  .containerWeatherAppClicked, 
+  .containerBlogWebsiteClicked {
+    margin-top: 450px;
+  }
 }
 
 @media (min-width: 500px) {
@@ -95,6 +113,24 @@
   
   .container div {
     flex: 0 0 50%;
+  }
+
+  .containerReactStoreClicked,
+  .containerExpensifyAppClicked,
+  .containerIndecisionAppClicked {
+    margin-top: -25px;
+  }
+
+  .containerChatAppClicked, 
+  .containerFriendsTriviaClicked, 
+  .containerTheBigBangTheoryTriviaClicked {
+    margin-top: 250px;
+  }
+
+  .containerMovieDatabaseClicked, 
+  .containerWeatherAppClicked, 
+  .containerBlogWebsiteClicked {
+    margin-top: 450px;
   }
 }
 
@@ -183,21 +219,18 @@
   .containerExpensifyAppClicked,
   .containerIndecisionAppClicked {
     margin-top: -25px;
-    top: 25px;
   }
 
   .containerChatAppClicked, 
   .containerFriendsTriviaClicked, 
   .containerTheBigBangTheoryTriviaClicked {
     margin-top: 250px;
-    top: -250px;
   }
 
   .containerMovieDatabaseClicked, 
   .containerWeatherAppClicked, 
   .containerBlogWebsiteClicked {
     margin-top: 450px;
-    top: -450px;
   }
 }
 
@@ -536,7 +569,7 @@
   padding: 20px 20px 50px 20px;
   /* position: absolute; */
   position: fixed;
-  /* top: 25px; */
+  top: 25px;
   visibility: hidden;
   height: 60%;
   width: 75%;
@@ -622,7 +655,7 @@
   background: white;
   padding: 20px 20px 50px 20px;
   position: fixed;
-  /* top: 25px; */
+  top: 25px;
   visibility: hidden;
   height: 60%;
   width: 75%;
@@ -698,7 +731,7 @@
   background: white;
   padding: 20px 20px 50px 20px;
   position: fixed;
-  /* top: 25px; */
+  top: 25px;
   visibility: hidden;
   height: 60%;
   width: 75%;
@@ -774,7 +807,7 @@
   background: white;
   padding: 20px 20px 50px 20px;
   position: fixed;
-  /* top: -250px; */
+  top: -250px;
   visibility: hidden;
   height: 60%;
   width: 75%;
@@ -850,7 +883,7 @@
   background: white;
   padding: 20px 20px 50px 20px;
   position: fixed;
-  /* top: -250px; */
+  top: -250px;
   visibility: hidden;
   height: 60%;
   width: 75%;
@@ -926,7 +959,7 @@
   background: white;
   padding: 20px 20px 50px 20px;
   position: fixed;
-  /* top: -250px; */
+  top: -250px;
   visibility: hidden;
   height: 60%;
   width: 75%;
@@ -1002,7 +1035,7 @@
   background: white;
   padding: 20px 20px 50px 20px;
   position: fixed;
-  /* top: -450px; */
+  top: -450px;
   visibility: hidden;
   height: 60%;
   width: 75%;
@@ -1078,7 +1111,7 @@
   background: white;
   padding: 20px 20px 50px 20px;
   position: fixed;
-  /* top: -450px; */
+  top: -450px;
   visibility: hidden;
   width: 75%;
   z-index: 100;
@@ -1153,7 +1186,7 @@
   background: white;
   padding: 20px 20px 50px 20px;
   position: fixed;
-  /* top: -450px; */
+  top: -450px;
   visibility: hidden;
   width: 75%;
   z-index: 100;
