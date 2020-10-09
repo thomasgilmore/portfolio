@@ -86,6 +86,7 @@ if ($(window).width() > 200 & $(window).width() < 500) {
   $('.imageIndecisionAppClicked').attr('src', 'img/projects/indecision-app-square.png');
   $('.imageChatAppClicked').attr('src', 'img/projects/chat-app-with-chat-square.png');
   $('.imageFriendsTriviaClicked').attr('src', 'img/projects/friends-trivia-square.png');
+  $('.imageTheBigBangTheoryTriviaClicked').attr('src', 'img/projects/the-big-bang-theory-trivia-square.png');
 
 } else {
   $('.imageReactStoreClicked').attr('src', 'img/projects/store.png');
@@ -93,6 +94,7 @@ if ($(window).width() > 200 & $(window).width() < 500) {
   $('.imageIndecisionAppClicked').attr('src', 'img/projects/indecision-app.png');
   $('.imageChatAppClicked').attr('src', 'img/projects/chat-app-with-chat-smaller-window-size.png');
   $('.imageFriendsTriviaClicked').attr('src', 'img/projects/friends-trivia-pop-up-window.png');
+  $('.imageTheBigBangTheoryTriviaClicked').attr('src', 'img/projects/the-big-bang-theory-trivia-pop-up-window.png');
 
 }
 
