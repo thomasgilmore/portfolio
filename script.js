@@ -80,6 +80,10 @@ window.addEventListener('scroll', checkScroll);
 //   $('.projectTitleExpensifyApp').removeClass('fadein');
 // })
 
+if ($(window).width() > 200 & $(window).width() < 500) {
+  console.log("working");
+}
+
 $('.overlayReactStore').on('click', function() {
   $('.containerReactStoreClicked').css('visibility', 'visible');
 });
