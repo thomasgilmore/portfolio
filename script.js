@@ -81,7 +81,9 @@ window.addEventListener('scroll', checkScroll);
 // })
 
 if ($(window).width() > 200 & $(window).width() < 500) {
-  console.log("working");
+  $('.imageReactStoreClicked').attr('src', 'img/projects/store-square.png');
+} else {
+  $('.imageReactStoreClicked').attr('src', 'img/projects/store.png');
 }
 
 $('.overlayReactStore').on('click', function() {
