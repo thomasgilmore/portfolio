@@ -82,8 +82,15 @@ window.addEventListener('scroll', checkScroll);
 
 if ($(window).width() > 200 & $(window).width() < 500) {
   $('.imageReactStoreClicked').attr('src', 'img/projects/store-square.png');
+  $('.imageExpensifyAppClicked').attr('src', 'img/projects/expensify-with-expenses.png');
+  $('.imageIndecisionAppClicked').attr('src', 'img/projects/indecision-app-square.png');
+
 } else {
   $('.imageReactStoreClicked').attr('src', 'img/projects/store.png');
+  $('.imageExpensifyAppClicked').attr('src', 'img/projects/expensify.png');
+  $('.imageIndecisionAppClicked').attr('src', 'img/projects/indecision-app.png');
+
+
 }
 
 $('.overlayReactStore').on('click', function() {
