@@ -81,7 +81,7 @@ window.addEventListener('scroll', checkScroll);
 // })
 
 if ($(window).width() > 200 & $(window).width() < 500) {
-  $('.imageReactStoreClicked').attr('src', 'img/projects/store-square.png');
+  // $('.imageReactStoreClicked').attr('src', 'img/projects/store-square.png');
   $('.imageExpensifyAppClicked').attr('src', 'img/projects/expensify-with-expenses.png');
   $('.imageIndecisionAppClicked').attr('src', 'img/projects/indecision-app-square.png');
   $('.imageChatAppClicked').attr('src', 'img/projects/chat-app-with-chat-square.png');
@@ -91,7 +91,7 @@ if ($(window).width() > 200 & $(window).width() < 500) {
   $('.imageWeatherAppClicked').attr('src', 'img/projects/weather-app.png');
   $('.imageBlogWebsiteClicked').attr('src', 'img/projects/blog-website.png');
 } else {
-  $('.imageReactStoreClicked').attr('src', 'img/projects/store.png');
+  // $('.imageReactStoreClicked').attr('src', 'img/projects/store.png');
   $('.imageExpensifyAppClicked').attr('src', 'img/projects/expensify.png');
   $('.imageIndecisionAppClicked').attr('src', 'img/projects/indecision-app.png');
   $('.imageChatAppClicked').attr('src', 'img/projects/chat-app-with-chat-smaller-window-size.png');
@@ -104,6 +104,11 @@ if ($(window).width() > 200 & $(window).width() < 500) {
 
 $('.overlayReactStore').on('click', function() {
   $('.containerReactStoreClicked').css('visibility', 'visible');
+  if ($(window).width() > 200 & $(window).width() < 500) {
+    $('.imageReactStoreClicked').attr('src', 'img/projects/store-square.png');
+  } else {
+    $('.imageReactStoreClicked').attr('src', 'img/projects/store.png');
+  }
 });
 
 // $('.containerReactStoreClicked').on('click', function() {
