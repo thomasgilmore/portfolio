@@ -1242,9 +1242,10 @@ button[type=submit] {
   color: white;
   padding: 12px 20px;
   margin-bottom: 15px;
-  border: solid 2px white;
+  border: solid 2px gray;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 14px;
 }
 
 button[type=submit]:hover {
