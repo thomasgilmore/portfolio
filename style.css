@@ -1242,13 +1242,14 @@ button[type=submit] {
   color: white;
   padding: 12px 20px;
   margin-bottom: 15px;
-  border: none;
+  border: solid 2px white;
   border-radius: 4px;
   cursor: pointer;
 }
 
 button[type=submit]:hover {
   background-color: #E31B6D;
+  border: solid 2px #E31B6D;
 }
 
 .github-logo {
