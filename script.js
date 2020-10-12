@@ -85,8 +85,8 @@ if ($(window).width() > 200 & $(window).width() < 500) {
   // $('.imageExpensifyAppClicked').attr('src', 'img/projects/expensify-with-expenses.png');
   // $('.imageIndecisionAppClicked').attr('src', 'img/projects/indecision-app-square.png');
   // $('.imageChatAppClicked').attr('src', 'img/projects/chat-app-with-chat-square.png');
-  $('.imageFriendsTriviaClicked').attr('src', 'img/projects/friends-trivia-square.png');
-  $('.imageTheBigBangTheoryTriviaClicked').attr('src', 'img/projects/the-big-bang-theory-trivia-square.png');
+  // $('.imageFriendsTriviaClicked').attr('src', 'img/projects/friends-trivia-square.png');
+  // $('.imageTheBigBangTheoryTriviaClicked').attr('src', 'img/projects/the-big-bang-theory-trivia-square.png');
   $('.imageMovieDatabaseClicked').attr('src', 'img/projects/movie-database-square.png');
   $('.imageWeatherAppClicked').attr('src', 'img/projects/weather-app.png');
   $('.imageBlogWebsiteClicked').attr('src', 'img/projects/blog-website.png');
@@ -95,8 +95,8 @@ if ($(window).width() > 200 & $(window).width() < 500) {
   // $('.imageExpensifyAppClicked').attr('src', 'img/projects/expensify.png');
   // $('.imageIndecisionAppClicked').attr('src', 'img/projects/indecision-app.png');
   // $('.imageChatAppClicked').attr('src', 'img/projects/chat-app-with-chat-smaller-window-size.png');
-  $('.imageFriendsTriviaClicked').attr('src', 'img/projects/friends-trivia-pop-up-window.png');
-  $('.imageTheBigBangTheoryTriviaClicked').attr('src', 'img/projects/the-big-bang-theory-trivia-pop-up-window.png');
+  // $('.imageFriendsTriviaClicked').attr('src', 'img/projects/friends-trivia-pop-up-window.png');
+  // $('.imageTheBigBangTheoryTriviaClicked').attr('src', 'img/projects/the-big-bang-theory-trivia-pop-up-window.png');
   $('.imageMovieDatabaseClicked').attr('src', 'img/projects/movie-database-pop-up-window.png');
   $('.imageWeatherAppClicked').attr('src', 'img/projects/weather-app-new-york.png');
   $('.imageBlogWebsiteClicked').attr('src', 'img/projects/blog-website-pop-up-window.png');
@@ -233,6 +233,11 @@ $(document).mouseup(function(e) {
 
 $('.overlayTheBigBangTheoryTrivia').on('click', function() {
   $('.containerTheBigBangTheoryTriviaClicked').css('visibility', 'visible');
+  if ($(window).width() > 200 & $(window).width() < 500) {
+    $('.imageTheBigBangTheoryTriviaClicked').attr('src', 'img/projects/the-big-bang-theory-trivia-square.png');
+  } else {
+    $('.imageTheBigBangTheoryTriviaClicked').attr('src', 'img/projects/the-big-bang-theory-trivia-pop-up-window.png');
+  }
 });
 
 $('.closecontainerTheBigBangTheoryTriviaClicked').on('click', function() {
