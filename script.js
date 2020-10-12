@@ -183,6 +183,11 @@ $(document).mouseup(function(e) {
 
 $('.overlayChatApp').on('click', function() {
   $('.containerChatAppClicked').css('visibility', 'visible');
+  if ($(window).width() > 200 & $(window).width() < 500) {
+    $('.imageChatAppClicked').attr('src', 'img/projects/chat-app-with-chat-square.png');
+  } else {
+    $('.imageChatAppClicked').attr('src', 'img/projects/chat-app-with-chat-smaller-window-size.png');
+  }
 });
 
 $('.closecontainerChatAppClicked').on('click', function() {
