@@ -94,7 +94,7 @@ if ($(window).width() > 200 & $(window).width() < 500) {
   // $('.imageReactStoreClicked').attr('src', 'img/projects/store.png');
   // $('.imageExpensifyAppClicked').attr('src', 'img/projects/expensify.png');
   // $('.imageIndecisionAppClicked').attr('src', 'img/projects/indecision-app.png');
-  $('.imageChatAppClicked').attr('src', 'img/projects/chat-app-with-chat-smaller-window-size.png');
+  // $('.imageChatAppClicked').attr('src', 'img/projects/chat-app-with-chat-smaller-window-size.png');
   $('.imageFriendsTriviaClicked').attr('src', 'img/projects/friends-trivia-pop-up-window.png');
   $('.imageTheBigBangTheoryTriviaClicked').attr('src', 'img/projects/the-big-bang-theory-trivia-pop-up-window.png');
   $('.imageMovieDatabaseClicked').attr('src', 'img/projects/movie-database-pop-up-window.png');
