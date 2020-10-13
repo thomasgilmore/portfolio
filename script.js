@@ -88,7 +88,7 @@ if ($(window).width() > 200 & $(window).width() < 500) {
   // $('.imageFriendsTriviaClicked').attr('src', 'img/projects/friends-trivia-square.png');
   // $('.imageTheBigBangTheoryTriviaClicked').attr('src', 'img/projects/the-big-bang-theory-trivia-square.png');
   // $('.imageMovieDatabaseClicked').attr('src', 'img/projects/movie-database-square.png');
-  $('.imageWeatherAppClicked').attr('src', 'img/projects/weather-app.png');
+  // $('.imageWeatherAppClicked').attr('src', 'img/projects/weather-app.png');
   $('.imageBlogWebsiteClicked').attr('src', 'img/projects/blog-website.png');
 } else {
   // $('.imageReactStoreClicked').attr('src', 'img/projects/store.png');
@@ -98,7 +98,7 @@ if ($(window).width() > 200 & $(window).width() < 500) {
   // $('.imageFriendsTriviaClicked').attr('src', 'img/projects/friends-trivia-pop-up-window.png');
   // $('.imageTheBigBangTheoryTriviaClicked').attr('src', 'img/projects/the-big-bang-theory-trivia-pop-up-window.png');
   // $('.imageMovieDatabaseClicked').attr('src', 'img/projects/movie-database-pop-up-window.png');
-  $('.imageWeatherAppClicked').attr('src', 'img/projects/weather-app-new-york.png');
+  // $('.imageWeatherAppClicked').attr('src', 'img/projects/weather-app-new-york.png');
   $('.imageBlogWebsiteClicked').attr('src', 'img/projects/blog-website-pop-up-window.png');
 }
 
@@ -283,6 +283,11 @@ $(document).mouseup(function(e) {
 
 $('.overlayWeatherApp').on('click', function() {
   $('.containerWeatherAppClicked').css('visibility', 'visible');
+  if ($(window).width() > 200 & $(window).width() < 500) {
+    $('.imageWeatherAppClicked').attr('src', 'img/projects/weather-app.png');
+  } else {
+    $('.imageWeatherAppClicked').attr('src', 'img/projects/weather-app-new-york.png');
+  }
 });
 
 $('.closecontainerWeatherAppClicked').on('click', function() {
