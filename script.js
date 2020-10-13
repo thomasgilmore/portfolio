@@ -80,7 +80,7 @@ window.addEventListener('scroll', checkScroll);
 //   $('.projectTitleExpensifyApp').removeClass('fadein');
 // })
 
-if ($(window).width() > 200 & $(window).width() < 500) {
+// if ($(window).width() > 200 & $(window).width() < 500) {
   // $('.imageReactStoreClicked').attr('src', 'img/projects/store-square.png');
   // $('.imageExpensifyAppClicked').attr('src', 'img/projects/expensify-with-expenses.png');
   // $('.imageIndecisionAppClicked').attr('src', 'img/projects/indecision-app-square.png');
@@ -89,8 +89,8 @@ if ($(window).width() > 200 & $(window).width() < 500) {
   // $('.imageTheBigBangTheoryTriviaClicked').attr('src', 'img/projects/the-big-bang-theory-trivia-square.png');
   // $('.imageMovieDatabaseClicked').attr('src', 'img/projects/movie-database-square.png');
   // $('.imageWeatherAppClicked').attr('src', 'img/projects/weather-app.png');
-  $('.imageBlogWebsiteClicked').attr('src', 'img/projects/blog-website.png');
-} else {
+  // $('.imageBlogWebsiteClicked').attr('src', 'img/projects/blog-website.png');
+// } else {
   // $('.imageReactStoreClicked').attr('src', 'img/projects/store.png');
   // $('.imageExpensifyAppClicked').attr('src', 'img/projects/expensify.png');
   // $('.imageIndecisionAppClicked').attr('src', 'img/projects/indecision-app.png');
@@ -99,8 +99,8 @@ if ($(window).width() > 200 & $(window).width() < 500) {
   // $('.imageTheBigBangTheoryTriviaClicked').attr('src', 'img/projects/the-big-bang-theory-trivia-pop-up-window.png');
   // $('.imageMovieDatabaseClicked').attr('src', 'img/projects/movie-database-pop-up-window.png');
   // $('.imageWeatherAppClicked').attr('src', 'img/projects/weather-app-new-york.png');
-  $('.imageBlogWebsiteClicked').attr('src', 'img/projects/blog-website-pop-up-window.png');
-}
+  // $('.imageBlogWebsiteClicked').attr('src', 'img/projects/blog-website-pop-up-window.png');
+// }
 
 $('.overlayReactStore').on('click', function() {
   $('.containerReactStoreClicked').css('visibility', 'visible');
@@ -308,6 +308,11 @@ $(document).mouseup(function(e) {
 
 $('.overlayBlogWebsite').on('click', function() {
   $('.containerBlogWebsiteClicked').css('visibility', 'visible');
+  if ($(window).width() > 200 & $(window).width() < 500) {
+    $('.imageBlogWebsiteClicked').attr('src', 'img/projects/blog-website.png');
+  } else {
+    $('.imageBlogWebsiteClicked').attr('src', 'img/projects/blog-website-pop-up-window.png');
+  }
 });
 
 $('.closecontainerBlogWebsiteClicked').on('click', function() {
