@@ -40,6 +40,8 @@
 
   .aboutText {
     margin: 15px 0;
+    font-size: 16px;
+    font-family: "Raleway";
   }
 
   .container {
@@ -166,6 +168,8 @@
 
   .aboutText {
     margin: 15px 10px;
+    font-size: 16px;
+    font-family: "Raleway";
   }
 }
 
@@ -201,6 +205,8 @@
 
   .aboutText {
     margin: 15px 100px;
+    font-size: 16px;
+    font-family: "Raleway";
   }
 
   .container {
@@ -256,7 +262,7 @@
   .home, .about,
   .portfolio, .contact {
     color: white;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -290,7 +296,7 @@
 }
 
 .aboutTitle {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 40px;
   margin: 0 0 15px 0;
   padding-top: 30px;
@@ -354,7 +360,7 @@
 }
 
 .portfolioTitle {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 40px;
   margin: 0 0 15px 0;
   padding-top: 50px;
@@ -1216,7 +1222,7 @@
   margin: 5px;
   padding: 20px 0;
   font-size: 40px;
-  font-family: Raleway;
+  font-family: "Raleway";
 }
 
 input[type=text], textarea {
