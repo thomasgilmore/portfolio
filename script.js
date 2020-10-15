@@ -286,7 +286,7 @@ $('.overlayWeatherApp').on('click', function() {
   if ($(window).width() > 200 & $(window).width() < 500) {
     $('.imageWeatherAppClicked').attr('src', 'img/projects/weather-app.png');
   } else {
-    $('.imageWeatherAppClicked').attr('src', 'img/projects/weather-app-new-york.png');
+    $('.imageWeatherAppClicked').attr('src', 'img/projects/weather-app-new-york-2.png');
   }
 });
 
