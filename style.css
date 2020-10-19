@@ -288,7 +288,7 @@
   }
 
   .nav-click {
-    color: orange;
+    color: #eb6123;
     /* color:  #E31B6D; */
   }
   
@@ -340,7 +340,7 @@
 }
 
 .name {
-  color: orange;
+  color: #eb6123;
   /* color: #E31B6D; */
 }
 
@@ -358,8 +358,8 @@
 }
 
 .ViewMyWorkButton:hover {
-  background: orange;
-  border: 2px solid orange;
+  background: #eb6123;
+  border: 2px solid #eb6123;
   /* background: #E31B6D;
   border: 2px solid #E31B6D; */
 }
@@ -1270,8 +1270,8 @@ button[type=submit] {
 }
 
 button[type=submit]:hover {
-  background-color: orange;
-  border: solid 2px orange;
+  background-color: #eb6123;
+  border: solid 2px #eb6123;
   /* background-color: #E31B6D;
   border: solid 2px #E31B6D; */
 }
