@@ -288,7 +288,8 @@
   }
 
   .nav-click {
-    color:  #E31B6D;
+    color: orange;
+    /* color:  #E31B6D; */
   }
   
   /* Page content */
@@ -339,7 +340,8 @@
 }
 
 .name {
-  color: #E31B6D;
+  color: orange;
+  /* color: #E31B6D; */
 }
 
 .ViewMyWorkButton {
@@ -356,8 +358,10 @@
 }
 
 .ViewMyWorkButton:hover {
-  background: #E31B6D;
-  border: 2px solid #E31B6D;
+  background: orange;
+  border: 2px solid orange;
+  /* background: #E31B6D;
+  border: 2px solid #E31B6D; */
 }
 
 #about {
@@ -1266,8 +1270,10 @@ button[type=submit] {
 }
 
 button[type=submit]:hover {
-  background-color: #E31B6D;
-  border: solid 2px #E31B6D;
+  background-color: orange;
+  border: solid 2px orange;
+  /* background-color: #E31B6D;
+  border: solid 2px #E31B6D; */
 }
 
 .github-logo {
