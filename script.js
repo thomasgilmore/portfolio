@@ -21,8 +21,9 @@ function myFunction() {
 
 var section1 = document.querySelector('.home');
 var section2 = document.querySelector('.about');
-var section3 = document.querySelector('.portfolio');
-var section4 = document.querySelector('.contact');
+var section3 = document.querySelector('.coursesAndCertifications')
+var section4 = document.querySelector('.portfolio');
+var section5 = document.querySelector('.contact');
 
 const sections = document.querySelectorAll('.section');
 
@@ -32,30 +33,41 @@ function checkScroll(e) {
 
     var section_1 = document.getElementById('home');
     var section_2 = document.getElementById('about');
-    var section_3 = document.getElementById('portfolio');
-    var section_4 = document.getElementById('contact');
+    var section_3 = document.getElementById('coursesAndCertifications');
+    var section_4 = document.getElementById('portfolio');
+    var section_5 = document.getElementById('contact');
 
     if (activeClass >= section_1.offsetTop-20 && activeClass < section_2.offsetTop-35) {
       section1.classList.add('nav-click');
       section2.classList.remove('nav-click');
       section3.classList.remove('nav-click');
       section4.classList.remove('nav-click');
+      section5.classList.remove('nav-click');
     } else if (activeClass >= section_2.offsetTop-35 && activeClass < section_3.offsetTop-25) {
       section1.classList.remove('nav-click');
       section2.classList.add('nav-click');
       section3.classList.remove('nav-click');
       section4.classList.remove('nav-click');
+      section5.classList.remove('nav-click');
     } else if (activeClass >= section_3.offsetTop-35 && activeClass < section_4.offsetTop-35) {
       section1.classList.remove('nav-click');
       section2.classList.remove('nav-click');
       section3.classList.add('nav-click');
       section4.classList.remove('nav-click');
-    } else if (activeClass >= section_4.offsetTop-35) {
+      section5.classList.remove('nav-click');
+    } else if (activeClass >= section_4.offsetTop-35 && activeClass < section_5.offsetTop-35) {
       section1.classList.remove('nav-click');
       section2.classList.remove('nav-click');
       section3.classList.remove('nav-click');
       section4.classList.add('nav-click');
-    } 
+      section5.classList.remove('nav-click');
+    } else if (activeClass >= section_5.offsetTop-35) {
+      section1.classList.remove('nav-click');
+      section2.classList.remove('nav-click');
+      section3.classList.remove('nav-click');
+      section4.classList.remove('nav-click');
+      section5.classList.add('nav-click');
+    }
   });
 }
 
@@ -327,6 +339,31 @@ $(document).mouseup(function(e) {
   if (!popUpWindow.is(e.target) && popUpWindow.has(e.target).length === 0) {
     if (!projectPicture.is(e.target) && projectPicture.has(e.target).length === 0) {
       $('.containerBlogWebsiteClicked').css('visibility', 'hidden');
+    }
+  }
+});
+
+$('.overlayPricingComponentWithToggle').on('click', function() {
+  $('.containerPricingComponentWithToggleClicked').css('visibility', 'visible');
+  if ($(window).width() > 200 & $(window).width() < 500) {
+    $('.imagePricingComponentWithToggleClicked').attr('src', 'img/projects/pricing-component-with-toggle-square.png');
+  } else {
+    $('.imagePricingComponentWithToggleClicked').attr('src', 'img/projects/pricing-component-with-toggle.png');
+  }
+});
+
+$('.closecontainerPricingComponentWithToggleClicked').on('click', function() {
+  $('.containerPricingComponentWithToggleClicked').css('visibility', 'hidden');
+});
+
+$(document).mouseup(function(e) {
+  var popUpWindow = $(".containerPricingComponentWithToggleClicked");
+  var projectPicture = $('.overlayPricingComponentWithToggle');
+
+  // if the target of the click isn't the container nor a descendant of the container
+  if (!popUpWindow.is(e.target) && popUpWindow.has(e.target).length === 0) {
+    if (!projectPicture.is(e.target) && projectPicture.has(e.target).length === 0) {
+      $('.containerPricingComponentWithToggleClicked').css('visibility', 'hidden');
     }
   }
 });
