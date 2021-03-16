@@ -2,6 +2,14 @@
   margin: 0;
 }
 
+#newerNav {
+  background-color: #333;
+}
+
+#nav-link {
+  color: white;
+}
+
 /* 
 ****** To Do ********
   - Work on felxbox of container 
@@ -314,6 +322,11 @@
     transition: color 0.5s;
   }
 
+  #nav-click {
+    color: #eb6123;
+    /* color:  #E31B6D; */
+  }
+
   .nav-click {
     color: #eb6123;
     /* color:  #E31B6D; */
@@ -337,7 +350,7 @@
   }
 
 .paddingForAbout {
-  margin-top: 47px;
+  margin-top: 70px;
   padding-top: 0;
 }
 
