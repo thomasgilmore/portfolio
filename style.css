@@ -28,6 +28,11 @@
     padding: 5px 13px;
   }
 
+  .paddingForAbout {
+    margin-top: 60px;
+    padding-top: 0;
+  }
+
   /* Style the navbar */
   #navbar {
     overflow: hidden;
@@ -216,6 +221,13 @@
   }
 }
 
+@media (min-width: 992) {
+  .paddingForAbout {
+    margin-top: 60px;
+    padding-top: 0;
+  }
+}
+
 @media (min-width: 1170px) {
   .homeText {
     font-size: 32pt;
@@ -350,10 +362,10 @@
     padding-top: 60px;
   }
 
-.paddingForAbout {
+/* .paddingForAbout {
   margin-top: 70px;
   padding-top: 0;
-}
+} */
 
 .aboutTitle {
   font-family: "Raleway";
