@@ -2,19 +2,19 @@
 window.onscroll = function() {myFunction()};
 
 // Get the navbar
-var navbar = document.getElementById("navbar");
+var newerNav = document.getElementById("newerNav");
 var about = document.getElementById("about");
 
 // Get the offset position of the navbar
-var sticky = navbar.offsetTop;
+var sticky = newerNav.offsetTop;
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
+    newerNav.classList.add("fixed-top");
     about.classList.add("paddingForAbout");
   } else {
-    navbar.classList.remove("sticky");
+    newerNav.classList.remove("fixed-top");
     about.classList.remove("paddingForAbout");
   }
 }
@@ -38,35 +38,35 @@ function checkScroll(e) {
     var section_5 = document.getElementById('contact');
 
     if (activeClass >= section_1.offsetTop-20 && activeClass < section_2.offsetTop-35) {
-      section1.classList.add('nav-click');
-      section2.classList.remove('nav-click');
-      section3.classList.remove('nav-click');
-      section4.classList.remove('nav-click');
-      section5.classList.remove('nav-click');
+      section1.setAttribute("id", "nav-click");
+      section2.setAttribute("id", "nav-link");
+      section3.setAttribute("id", "nav-link");
+      section4.setAttribute("id", "nav-link");
+      section5.setAttribute("id", "nav-link");
     } else if (activeClass >= section_2.offsetTop-35 && activeClass < section_3.offsetTop-25) {
-      section1.classList.remove('nav-click');
-      section2.classList.add('nav-click');
-      section3.classList.remove('nav-click');
-      section4.classList.remove('nav-click');
-      section5.classList.remove('nav-click');
+      section1.setAttribute("id", "nav-link");
+      section2.setAttribute("id", "nav-click");
+      section3.setAttribute("id", "nav-link");
+      section4.setAttribute("id", "nav-link");
+      section5.setAttribute("id", "nav-link");
     } else if (activeClass >= section_3.offsetTop-35 && activeClass < section_4.offsetTop-35) {
-      section1.classList.remove('nav-click');
-      section2.classList.remove('nav-click');
-      section3.classList.add('nav-click');
-      section4.classList.remove('nav-click');
-      section5.classList.remove('nav-click');
+      section1.setAttribute("id", "nav-link");
+      section2.setAttribute("id", "nav-link");
+      section3.setAttribute("id", "nav-click");
+      section4.setAttribute("id", "nav-link");
+      section5.setAttribute("id", "nav-link");
     } else if (activeClass >= section_4.offsetTop-35 && activeClass < section_5.offsetTop-35) {
-      section1.classList.remove('nav-click');
-      section2.classList.remove('nav-click');
-      section3.classList.remove('nav-click');
-      section4.classList.add('nav-click');
-      section5.classList.remove('nav-click');
+      section1.setAttribute("id", "nav-link");
+      section2.setAttribute("id", "nav-link");
+      section3.setAttribute("id", "nav-link");
+      section4.setAttribute("id", "nav-click");
+      section5.setAttribute("id", "nav-link");
     } else if (activeClass >= section_5.offsetTop-35) {
-      section1.classList.remove('nav-click');
-      section2.classList.remove('nav-click');
-      section3.classList.remove('nav-click');
-      section4.classList.remove('nav-click');
-      section5.classList.add('nav-click');
+      section1.setAttribute("id", "nav-link");
+      section2.setAttribute("id", "nav-link");
+      section3.setAttribute("id", "nav-link");
+      section4.setAttribute("id", "nav-link");
+      section5.setAttribute("id", "nav-click");
     }
   });
 }
