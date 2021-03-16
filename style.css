@@ -4,6 +4,7 @@
 
 #newerNav {
   background-color: #333;
+  z-index: 99;
 }
 
 #nav-link {
@@ -377,6 +378,11 @@
   margin: 0 0 20px 0;
   padding-top: 35vh;
   text-align: center;
+}
+
+#name {
+  color: #eb6123;
+  /* color: #E31B6D; */
 }
 
 .name {
