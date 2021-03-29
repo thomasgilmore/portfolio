@@ -114,6 +114,31 @@ window.addEventListener('scroll', checkScroll);
   // $('.imageBlogWebsiteClicked').attr('src', 'img/projects/blog-website-pop-up-window.png');
 // }
 
+$('.overlayWineRecommendations').on('click', function() {
+  $('.containerWineRecommendationsClicked').css('visibility', 'visible');
+  if ($(window).width() > 200 & $(window).width() < 500) {
+    $('.imageWineRecommendationsClicked').attr('src', 'img/projects/wine-recommendations-square.png');
+  } else {
+    $('.imageWineRecommendationsClicked').attr('src', 'img/projects/wine-recommendations-pop-up-window.png');
+  }
+});
+
+$('.closecontainerWineRecommendationsClicked').on('click', function() {
+  $('.containerWineRecommendationsClicked').css('visibility', 'hidden');
+});
+
+$(document).mouseup(function(e) {
+  var popUpWindow = $(".containerWineRecommendationsClicked");
+  var projectPicture = $('.overlayWineRecommendations');
+
+  // if the target of the click isn't the container nor a descendant of the container
+  if (!popUpWindow.is(e.target) && popUpWindow.has(e.target).length === 0) {
+    if (!projectPicture.is(e.target) && projectPicture.has(e.target).length === 0) {
+      $('.containerWineRecommendationsClicked').css('visibility', 'hidden');
+    }
+  }
+});
+
 $('.overlayReactStore').on('click', function() {
   $('.containerReactStoreClicked').css('visibility', 'visible');
   if ($(window).width() > 200 & $(window).width() < 500) {
@@ -218,30 +243,30 @@ $(document).mouseup(function(e) {
     }
 });
 
-$('.overlayFriendsTrivia').on('click', function() {
-  $('.containerFriendsTriviaClicked').css('visibility', 'visible');
-  if ($(window).width() > 200 & $(window).width() < 500) {
-    $('.imageFriendsTriviaClicked').attr('src', 'img/projects/friends-trivia-square.png');
-  } else {
-    $('.imageFriendsTriviaClicked').attr('src', 'img/projects/friends-trivia-pop-up-window.png');
-  }
-});
+// $('.overlayFriendsTrivia').on('click', function() {
+//   $('.containerFriendsTriviaClicked').css('visibility', 'visible');
+//   if ($(window).width() > 200 & $(window).width() < 500) {
+//     $('.imageFriendsTriviaClicked').attr('src', 'img/projects/friends-trivia-square.png');
+//   } else {
+//     $('.imageFriendsTriviaClicked').attr('src', 'img/projects/friends-trivia-pop-up-window.png');
+//   }
+// });
 
-$('.closecontainerFriendsTriviaClicked').on('click', function() {
-  $('.containerFriendsTriviaClicked').css('visibility', 'hidden');
-});
+// $('.closecontainerFriendsTriviaClicked').on('click', function() {
+//   $('.containerFriendsTriviaClicked').css('visibility', 'hidden');
+// });
 
-$(document).mouseup(function(e) {
-  var popUpWindow = $(".containerFriendsTriviaClicked");
-  var projectPicture = $('.overlayFriendsTrivia');
+// $(document).mouseup(function(e) {
+//   var popUpWindow = $(".containerFriendsTriviaClicked");
+//   var projectPicture = $('.overlayFriendsTrivia');
 
-  // if the target of the click isn't the container nor a descendant of the container
-  if (!popUpWindow.is(e.target) && popUpWindow.has(e.target).length === 0) {
-    if (!projectPicture.is(e.target) && projectPicture.has(e.target).length === 0) {
-      $('.containerFriendsTriviaClicked').css('visibility', 'hidden');
-    }
-  }
-});
+//   // if the target of the click isn't the container nor a descendant of the container
+//   if (!popUpWindow.is(e.target) && popUpWindow.has(e.target).length === 0) {
+//     if (!projectPicture.is(e.target) && projectPicture.has(e.target).length === 0) {
+//       $('.containerFriendsTriviaClicked').css('visibility', 'hidden');
+//     }
+//   }
+// });
 
 $('.overlayTheBigBangTheoryTrivia').on('click', function() {
   $('.containerTheBigBangTheoryTriviaClicked').css('visibility', 'visible');
