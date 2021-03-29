@@ -87,7 +87,8 @@
   }
 
   .containerChatAppClicked, 
-  .containerFriendsTriviaClicked, 
+  .containerWineRecommendationsClicked,
+  /* .containerFriendsTriviaClicked,  */
   .containerTheBigBangTheoryTriviaClicked {
     margin-top: 250px;
   }
@@ -158,8 +159,9 @@
     margin-top: -25px;
   }
 
-  .containerChatAppClicked, 
-  .containerFriendsTriviaClicked, 
+  .containerChatAppClicked,
+  .containerWineRecommendationsClicked, 
+  /* .containerFriendsTriviaClicked,  */
   .containerTheBigBangTheoryTriviaClicked {
     margin-top: 250px;
   }
@@ -314,7 +316,8 @@
   }
 
   .containerChatAppClicked, 
-  .containerFriendsTriviaClicked, 
+  .containerWineRecommendationsClicked,
+  /* .containerFriendsTriviaClicked,  */
   .containerTheBigBangTheoryTriviaClicked {
     margin-top: 250px;
   }
@@ -670,7 +673,80 @@
   opacity: 0.5;
 }
 
+.containerWineRecommendations {
+  position: relative;
+  width: 25%;
+}
 
+.imageWineRecommendations {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayWineRecommendations {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url(./img/projects/wine-recommendations-square.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-image-repeat: stretch;
+}
+
+.containerWineRecommendations:hover {
+  opacity: 0.75;
+}
+
+.overlayWineRecommendations:hover {
+  opacity: 1;
+}
+
+.textWineRecommendations {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 0px 1px 4px gray;
+}
+
+.containerWineRecommendationsClicked {
+  background: white;
+  padding: 20px 20px 50px 20px;
+  position: fixed;
+  top: -250px;
+  visibility: hidden;
+  width: 75%;
+  z-index: 100;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.closecontainerWineRecommendationsClicked {
+  background: white;
+  border: 0;
+  font-size: 20px;
+  left: 90%;
+  padding: 12px 5px 0px 5px;
+  position: absolute;
+}
+
+.imageWineRecommendationsClicked {
+  width: 60%;
+}
 
 .containerReactStore {
   position: relative;
@@ -983,7 +1059,7 @@
   width: 60%;
 }
 
-.containerFriendsTrivia {
+/* .containerFriendsTrivia {
   position: relative;
   width: 25%;
 }
@@ -1041,9 +1117,9 @@
   width: 75%;
   z-index: 100;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-}
+ /*  -moz-box-shadow:    3px 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+ /* box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+/*}
 
 .closecontainerFriendsTriviaClicked {
   background: white;
@@ -1056,7 +1132,7 @@
 
 .imageFriendsTriviaClicked {
   width: 60%;
-}
+} */
 
 .containerTheBigBangTheoryTrivia {
   position: relative;
@@ -1479,8 +1555,25 @@ button[type=submit]:hover {
   border: solid 2px #E31B6D; */
 }
 
-.github-logo {
+.social-links {
   display: flex;
+  flex-direction: row;
+  /* margin: 10px auto 80px; */
+  justify-content: center;
+}
+
+.github-logo {
+  /* display: flex; */
   height: 40px;
-  margin: 10px auto 80px auto;
+  margin: 10px 10px 80px 10px;
+}
+
+.resume {
+  margin: 17px 10px 80px 10px;
+}
+
+.linkedin-logo {
+  /* display: flex; */
+  height: 40px;
+  margin: 10px 10px 80px 10px;
 }
