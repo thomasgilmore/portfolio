@@ -108,6 +108,10 @@
   .coursesAndCertificationsTitle {
     padding-top: 50px;
   }
+
+  .wineRecommendationsh1 {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 500px) {
@@ -170,6 +174,10 @@
   .containerWeatherAppClicked, 
   .containerBlogWebsiteClicked {
     margin-top: 450px;
+  }
+
+  .wineRecommendationsh1 {
+    font-size: 40px;
   }
 }
 
