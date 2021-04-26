@@ -241,7 +241,7 @@
   }
   
   .container div {
-    flex: 0 0 49%;
+    flex: 0 0 40%;
   }
 }
 
@@ -261,7 +261,7 @@
   }
   
   .container div {
-    flex: 0 0 48%;
+    flex: 0 0 40%;
   }
 }
 
@@ -684,6 +684,7 @@
 .containerWineRecommendations {
   position: relative;
   width: 25%;
+  margin: 10px;
 }
 
 .imageWineRecommendations {
@@ -759,6 +760,7 @@
 .containerReactStore {
   position: relative;
   width: 25%;
+  margin: 10px;
 }
 
 .imageReactStore {
@@ -845,6 +847,7 @@
 .containerExpensifyApp {
   position: relative;
   width: 25%;
+  margin: 10px;
 }
 
 .imageExpensifyApp {
@@ -920,6 +923,7 @@
 .containerIndecisionApp {
   position: relative;
   width: 25%;
+  margin: 10px;
 }
 
 .imageIndecisionApp {
@@ -995,6 +999,7 @@
 .containerChatApp {
   position: relative;
   width: 25%;
+  margin: 10px;
 }
 
 .imageChatApp {
@@ -1145,6 +1150,7 @@
 .containerTheBigBangTheoryTrivia {
   position: relative;
   width: 25%;
+  margin: 10px;
 }
 
 .imageTheBigBangTheoryTrivia {
@@ -1220,6 +1226,7 @@
 .containerMovieDatabase {
   position: relative;
   width: 25%;
+  margin: 10px;
 }
 
 .imageMovieDatabase {
@@ -1295,6 +1302,7 @@
 .containerWeatherApp {
   position: relative;
   width: 25%;
+  margin: 10px;
 }
 
 .imageWeatherApp {
@@ -1370,6 +1378,7 @@
 .containerBlogWebsite {
   position: relative;
   width: 25%;
+  margin: 10px;
 }
 
 .imageBlogWebsite {
@@ -1445,6 +1454,7 @@
 .containerPricingComponentWithToggle {
   position: relative;
   width: 25%;
+  margin: 10px;
 }
 
 .imagePricingComponentWithToggle {
