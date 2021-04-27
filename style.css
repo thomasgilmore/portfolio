@@ -735,9 +735,11 @@
   background: white;
   padding: 20px 20px 50px 20px;
   position: fixed;
-  top: -250px;
+  top: 25%;
+  margin: 0 auto;
   visibility: hidden;
   width: 75%;
+  max-height: 75%;
   z-index: 100;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
@@ -812,9 +814,11 @@
   padding: 20px 20px 50px 20px;
   /* position: absolute; */
   position: fixed;
-  top: 25px;
+  top: 25%;
+  margin: 0 auto;
   visibility: hidden;
   width: 75%;
+  max-height: 75%;
   z-index: 100;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
@@ -898,9 +902,11 @@
   background: white;
   padding: 20px 20px 50px 20px;
   position: fixed;
-  top: 25px;
+  top: 25%;
+  margin: 0 auto;
   visibility: hidden;
   width: 75%;
+  max-height: 75%;
   z-index: 100;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
@@ -917,7 +923,7 @@
 }
 
 .imageExpensifyAppClicked {
-  width: 60%;
+  width: 50%;
 }
 
 .containerIndecisionApp {
@@ -974,9 +980,11 @@
   background: white;
   padding: 20px 20px 50px 20px;
   position: fixed;
-  top: 25px;
+  top: 25%;
+  margin: 0 auto;
   visibility: hidden;
   width: 75%;
+  max-height: 75%;
   z-index: 100;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
@@ -1050,9 +1058,11 @@
   background: white;
   padding: 20px 20px 50px 20px;
   position: fixed;
-  top: -250px;
+  top: 25%;
+  margin: 0 auto;
   visibility: hidden;
   width: 75%;
+  max-height: 75%;
   z-index: 100;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
@@ -1201,9 +1211,11 @@
   background: white;
   padding: 20px 20px 50px 20px;
   position: fixed;
-  top: -250px;
+  top: 25%;
+  margin: 0 auto;
   visibility: hidden;
   width: 75%;
+  max-height: 75%;
   z-index: 100;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
@@ -1277,9 +1289,11 @@
   background: white;
   padding: 20px 20px 50px 20px;
   position: fixed;
-  top: -450px;
+  top: 25%;
+  margin: 0 auto;
   visibility: hidden;
   width: 75%;
+  max-height: 75%;
   z-index: 100;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
@@ -1353,9 +1367,11 @@
   background: white;
   padding: 20px 20px 50px 20px;
   position: fixed;
-  top: -450px;
+  top: 25%;
+  margin: 0 auto;
   visibility: hidden;
   width: 75%;
+  max-height: 75%;
   z-index: 100;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
@@ -1372,7 +1388,7 @@
 }
 
 .imageWeatherAppClicked {
-  width: 90%;
+  width: 60%;
 }
 
 .containerBlogWebsite {
@@ -1429,9 +1445,11 @@
   background: white;
   padding: 20px 20px 50px 20px;
   position: fixed;
-  top: -450px;
+  top: 25%;
+  margin: 0 auto;
   visibility: hidden;
   width: 75%;
+  max-height: 75%;
   z-index: 100;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
@@ -1505,9 +1523,11 @@
   background: white;
   padding: 20px 20px 50px 20px;
   position: fixed;
-  top: 0px;
+  top: 25%;
+  margin: 0 auto;
   visibility: hidden;
   width: 75%;
+  max-height: 75%;
   z-index: 100;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
@@ -1524,7 +1544,7 @@
 }
 
 .imagePricingComponentWithToggleClicked {
-  width: 90%;
+  width: 60%;
 }
 
 
