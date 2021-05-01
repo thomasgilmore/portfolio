@@ -11,6 +11,12 @@
   color: white;
 }
 
+iframe {
+  margin: -200px auto -200px auto;
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+}
+
 /* 
 ****** To Do ********
   - Work on felxbox of container 
