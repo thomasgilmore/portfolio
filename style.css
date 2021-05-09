@@ -702,6 +702,56 @@
   opacity: 0.5;
 }
 
+.containerWeatherSite {
+  position: relative;
+  width: 25%;
+}
+
+.imageWeatherSite {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayWeatherSite {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/weather-site-square.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-image-repeat: stretch;
+}
+
+.containerWeatherSite:hover {
+  opacity: 1;
+}
+
+.overlayWeatherSite:hover {
+  opacity: 1;
+}
+
+.textWeatherSite {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* text-shadow: 0px 1px 4px gray; */
+}
+
+
 .containerWineRecommendations {
   position: relative;
   width: 25%;
@@ -775,6 +825,55 @@
 
 .imageWineRecommendationsClicked {
   width: 60%;
+}
+
+.containerBeachResort {
+  position: relative;
+  width: 25%;
+}
+
+.imageBeachResort {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayBeachResort {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/beach-resort-square.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-image-repeat: stretch;
+}
+
+.containerBeachResort:hover {
+  opacity: 1;
+}
+
+.overlayBeachResort:hover {
+  opacity: 1;
+}
+
+.textBeachResort {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerReactStore {
