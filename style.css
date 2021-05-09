@@ -702,6 +702,56 @@
   opacity: 0.5;
 }
 
+.containerWeatherSite {
+  position: relative;
+  width: 25%;
+}
+
+.imageWeatherSite {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayWeatherSite {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/weather-site-square.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-image-repeat: stretch;
+}
+
+.containerWeatherSite:hover {
+  opacity: 1;
+}
+
+.overlayWeatherSite:hover {
+  opacity: 1;
+}
+
+.textWeatherSite {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* text-shadow: 0px 1px 4px gray; */
+}
+
+
 .containerWineRecommendations {
   position: relative;
   width: 25%;
@@ -723,14 +773,14 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(./img/projects/wine-recommendations-square.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/wine-recommendations-square.png);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
 }
 
 .containerWineRecommendations:hover {
-  opacity: 0.75;
+  opacity: 1;
 }
 
 .overlayWineRecommendations:hover {
@@ -738,7 +788,7 @@
 }
 
 .textWineRecommendations {
-  color: black;
+  color: white;
   font-size: 25px;
   font-weight: bold;
   position: absolute;
@@ -748,7 +798,7 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  text-shadow: 0px 1px 4px gray;
+  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerWineRecommendationsClicked {
@@ -777,6 +827,55 @@
   width: 60%;
 }
 
+.containerBeachResort {
+  position: relative;
+  width: 25%;
+}
+
+.imageBeachResort {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayBeachResort {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/beach-resort-square.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-image-repeat: stretch;
+}
+
+.containerBeachResort:hover {
+  opacity: 1;
+}
+
+.overlayBeachResort:hover {
+  opacity: 1;
+}
+
+.textBeachResort {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* text-shadow: 0px 1px 4px gray; */
+}
+
 .containerReactStore {
   position: relative;
   width: 25%;
@@ -798,14 +897,14 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(./img/projects/store-square.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/store-square.png);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
 }
 
 .containerReactStore:hover {
-  opacity: 0.75;
+  opacity: 1;
 }
 
 .overlayReactStore:hover {
@@ -813,7 +912,7 @@
 }
 
 .textReactStore {
-  color: black;
+  color: white;
   font-size: 25px;
   font-weight: bold;
   position: absolute;
@@ -823,7 +922,7 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  text-shadow: 0px 1px 4px gray;
+  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerReactStoreClicked {
@@ -884,14 +983,14 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(./img/projects/expensify-with-expenses.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/expensify-with-expenses.png);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
 }
 
 .containerExpensifyApp:hover {
-  opacity: 0.75;
+  opacity: 1;
 }
 
 .overlayExpensifyApp:hover {
@@ -899,7 +998,7 @@
 }
 
 .textExpensifyApp {
-  color: black;
+  color: white;
   font-size: 25px;
   font-weight: bold;
   position: absolute;
@@ -909,7 +1008,7 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  text-shadow: 0px 1px 4px gray;
+  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerExpensifyAppClicked {
@@ -959,14 +1058,14 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(./img/projects/indecision-app-square.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/indecision-app-square.png);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
 }
 
 .containerIndecisionApp:hover {
-  opacity: 0.75;
+  opacity: 1;
 }
 
 .overlayIndecisionApp:hover {
@@ -974,7 +1073,7 @@
 }
 
 .textIndecisionApp {
-  color: black;
+  color: white;
   font-size: 25px;
   font-weight: bold;
   position: absolute;
@@ -984,7 +1083,7 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  text-shadow: 0px 1px 4px gray;
+  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerIndecisionAppClicked {
@@ -1034,14 +1133,14 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(./img/projects/chat-app-with-chat-square.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/chat-app-with-chat-square.png);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
 }
 
 .containerChatApp:hover {
-  opacity: 0.75;
+  opacity: 1;
 }
 
 .overlayChatApp:hover {
@@ -1049,7 +1148,7 @@
 }
 
 .textChatApp {
-  color: black;
+  color: white;
   font-size: 25px;
   font-weight: bold;
   position: absolute;
@@ -1059,7 +1158,7 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  text-shadow: 0px 1px 4px gray;
+  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerChatAppClicked {
@@ -1116,7 +1215,7 @@
 }
 
 .containerFriendsTrivia:hover {
-  opacity: 0.75;
+  opacity: 1;
 }
 
 .overlayFriendsTrivia:hover {
@@ -1124,7 +1223,7 @@
 }
 
 .textFriendsTrivia {
-  color: black;
+  color: white;
   font-size: 25px;
   font-weight: bold;
   position: absolute;
@@ -1134,7 +1233,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  text-shadow: 0px 1px 4px gray;
 }
 
 .containerFriendsTriviaClicked {
@@ -1184,14 +1282,14 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(./img/projects/the-big-bang-theory-trivia-square.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/the-big-bang-theory-trivia-square.png);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
 }
 
 .containerTheBigBangTheoryTrivia:hover {
-  opacity: 0.75;
+  opacity: 1;
 }
 
 .overlayTheBigBangTheoryTrivia:hover {
@@ -1199,7 +1297,7 @@
 }
 
 .textTheBigBangTheoryTrivia {
-  color: black;
+  color: white;
   font-size: 25px;
   font-weight: bold;
   position: absolute;
@@ -1209,7 +1307,7 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  text-shadow: 0px 1px 4px gray;
+  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerTheBigBangTheoryTriviaClicked {
@@ -1259,14 +1357,14 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(./img/projects/movie-database-square.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/movie-database-square.png);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
 }
 
 .containerMovieDatabase:hover {
-  opacity: 0.75;
+  opacity: 1;
 }
 
 .overlayMovieDatabase:hover {
@@ -1274,7 +1372,7 @@
 }
 
 .textMovieDatabase {
-  color: black;
+  color: white;
   font-size: 25px;
   font-weight: bold;
   position: absolute;
@@ -1284,7 +1382,7 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  text-shadow: 0px 1px 4px gray;
+  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerMovieDatabaseClicked {
@@ -1334,14 +1432,14 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(./img/projects/weather-app.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/weather-app.png);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
 }
 
 .containerWeatherApp:hover {
-  opacity: 0.75;
+  opacity: 1;
 }
 
 .overlayWeatherApp:hover {
@@ -1349,7 +1447,7 @@
 }
 
 .textWeatherApp {
-  color: black;
+  color: white;
   font-size: 25px;
   font-weight: bold;
   position: absolute;
@@ -1359,7 +1457,7 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  text-shadow: 0px 1px 4px gray;
+  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerWeatherAppClicked {
@@ -1409,14 +1507,14 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(./img/projects/blog-website.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/blog-website.png);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
 }
 
 .containerBlogWebsite:hover {
-  opacity: 0.75;
+  opacity: 1;
 }
 
 .overlayBlogWebsite:hover {
@@ -1424,7 +1522,7 @@
 }
 
 .textBlogWebsite {
-  color: black;
+  color: white;
   font-size: 25px;
   font-weight: bold;
   position: absolute;
@@ -1434,7 +1532,7 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  text-shadow: 0px 1px 4px gray;
+  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerBlogWebsiteClicked {
@@ -1484,14 +1582,14 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(./img/projects/pricing-component-with-toggle-square.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/pricing-component-with-toggle-square.png);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
 }
 
 .containerPricingComponentWithToggle:hover {
-  opacity: 0.75;
+  opacity: 1;
 }
 
 .overlayPricingComponentWithToggle:hover {
@@ -1499,7 +1597,7 @@
 }
 
 .textPricingComponentWithToggle {
-  color: black;
+  color: white;
   font-size: 25px;
   font-weight: bold;
   position: absolute;
@@ -1509,7 +1607,7 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  text-shadow: 0px 1px 4px gray;
+  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerPricingComponentWithToggleClicked {
