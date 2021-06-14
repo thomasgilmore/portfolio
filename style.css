@@ -434,7 +434,7 @@
 }
 
 #home {
-  background-image: url(./img/background.png);
+  background-image: url(./img/background.jpg);
   color: white;
   font-size: 25px;
   height: 100vh;
@@ -723,7 +723,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/weather-site-square.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/weather-site-square.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
@@ -773,7 +773,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/wine-recommendations-square.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/wine-recommendations-square.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
@@ -848,7 +848,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/beach-resort-square.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/beach-resort-square.jpeg);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
@@ -897,7 +897,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/store-square.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/store-square.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
@@ -983,7 +983,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/expensify-with-expenses.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/expensify-with-expenses.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
@@ -1058,7 +1058,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/indecision-app-square.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/indecision-app-square.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
@@ -1133,7 +1133,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/chat-app-with-chat-square.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/chat-app-with-chat-square.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
@@ -1208,7 +1208,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(./img/projects/friends-trivia-square.png);
+  background-image: url(./img/projects/friends-trivia-square.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
@@ -1282,7 +1282,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/the-big-bang-theory-trivia-square.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/the-big-bang-theory-trivia-square.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
@@ -1357,7 +1357,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/movie-database-square.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/movie-database-square.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
@@ -1432,7 +1432,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/weather-app.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/weather-app.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
@@ -1507,7 +1507,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/blog-website.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/blog-website.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
@@ -1582,7 +1582,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/pricing-component-with-toggle-square.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/pricing-component-with-toggle-square.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   border-image-repeat: stretch;
