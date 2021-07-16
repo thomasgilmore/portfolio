@@ -32,12 +32,6 @@
   }
 }
 
-/* 
-****** To Do ********
-  - Work on felxbox of container 
-  Find below...... (in comments below)
-*/
-
  @media (min-width: 200px) {
   .homeText {
     font-size: 18pt;
@@ -109,7 +103,6 @@
 
   .containerChatAppClicked, 
   .containerWineRecommendationsClicked,
-  /* .containerFriendsTriviaClicked,  */
   .containerTheBigBangTheoryTriviaClicked {
     margin-top: 250px;
   }
@@ -186,7 +179,6 @@
 
   .containerChatAppClicked,
   .containerWineRecommendationsClicked, 
-  /* .containerFriendsTriviaClicked,  */
   .containerTheBigBangTheoryTriviaClicked {
     margin-top: 250px;
   }
@@ -346,7 +338,6 @@
 
   .containerChatAppClicked, 
   .containerWineRecommendationsClicked,
-  /* .containerFriendsTriviaClicked,  */
   .containerTheBigBangTheoryTriviaClicked {
     margin-top: 250px;
   }
@@ -364,25 +355,6 @@
   }
 }
 
-/* **** Remove when flexbox is done ***** */
-/* Style the navbar */
-/* #navbar {
-    overflow: hidden;
-    background-color: #333;
-    padding-left: 50px;
-    z-index: 100;
-   } */
-  
-  /* Navbar links */
-  /* #navbar a {
-    float: left;
-    display: block;
-    text-align: center;
-    margin: 0 20px;
-    padding: 14px;
-    text-decoration: none;
-  } */ 
-
   .home, .about,
   .coursesAndCertifications,
   .portfolio, .contact {
@@ -396,12 +368,10 @@
 
   #nav-click {
     color: #eb6123;
-    /* color:  #E31B6D; */
   }
 
   .nav-click {
     color: #eb6123;
-    /* color:  #E31B6D; */
   }
   
   /* Page content */
@@ -421,11 +391,6 @@
     padding-top: 60px;
   }
 
-/* .paddingForAbout {
-  margin-top: 70px;
-  padding-top: 0;
-} */
-
 .aboutTitle {
   font-family: "Raleway";
   font-size: 40px;
@@ -444,8 +409,6 @@
 
 .homeText {
   font-family: "Raleway";
-  /* font-size: 32pt; */
-  /* line-height: 36pt; */
   margin: 0 0 20px 0;
   padding-top: 35vh;
   text-align: center;
@@ -453,12 +416,10 @@
 
 #name {
   color: #eb6123;
-  /* color: #E31B6D; */
 }
 
 .name {
   color: #eb6123;
-  /* color: #E31B6D; */
 }
 
 .ViewMyWorkButton {
@@ -468,27 +429,18 @@
   color: white;
   cursor: pointer;
   display: inline-block;
-  /* font-size: 21.33pt; */
-  /* margin-top: 15px; */
-  /* padding: 10px 20px; */
   transition: all 0.5s;
 }
 
 .ViewMyWorkButton:hover {
   background: #eb6123;
   border: 2px solid #eb6123;
-  /* background: #E31B6D;
-  border: 2px solid #E31B6D; */
 }
 
 #about {
   text-align: center;
   padding: 1.5% 10%;
 }
-
-/* .aboutText {
-  margin: 15px 100px;
-} */
 
 .me {
   width: 200px;
@@ -503,7 +455,6 @@
   font-family: "Raleway";
   font-size: 40px;
   margin: 0 0 15px 0;
-  /* padding-top: 30px; */
 }
 
 .issueDate {
@@ -556,40 +507,9 @@
   text-align: center;
 }
 
-/* #contact.contactForm {
-  margin-top: 30px;
-} */
-
-/* .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-} */
-
-/* 
-******* To Do ******
-  - Remove below code...
-  Once flexbox is done. 
-*/
-
-/* .container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 30px 100px; */
-  /* padding: 20px; */
- /* justify-content: center;
-}
-
-.container div {
-  flex: 0 0 33.3333%;
-} */
-
 .project {
   position: relative;
   text-align: center;
-  /* color: white; */
 }
 
 .centered {
@@ -748,7 +668,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerWineRecommendationsVersion2Clicked {
@@ -823,7 +742,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerNetflixCloneClicked {
@@ -898,7 +816,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  /* text-shadow: 0px 1px 4px gray; */
 }
 
 
@@ -948,7 +865,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerWineRecommendationsClicked {
@@ -1023,7 +939,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerReactStore {
@@ -1072,13 +987,11 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerReactStoreClicked {
   background: white;
   padding: 20px 20px 50px 20px;
-  /* position: absolute; */
   position: fixed;
   top: 25px;
   visibility: hidden;
@@ -1093,9 +1006,6 @@
   background: #E31B6D;
   border: #E31B6D solid 5px ;
   color: white;
-  /* font-size: 20px; */
-  /* left: 10%; */
-  /* padding: 5px 5px; */
   position: absolute;
 }
 
@@ -1158,7 +1068,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerExpensifyAppClicked {
@@ -1233,7 +1142,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerIndecisionAppClicked {
@@ -1308,7 +1216,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerChatAppClicked {
@@ -1336,80 +1243,6 @@
 .imageChatAppClicked {
   width: 60%;
 }
-
-/* .containerFriendsTrivia {
-  position: relative;
-  width: 25%;
-}
-
-.imageFriendsTrivia {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlayFriendsTrivia {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-image: url(./img/projects/friends-trivia-square.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  border-image-repeat: stretch;
-}
-
-.containerFriendsTrivia:hover {
-  opacity: 1;
-}
-
-.overlayFriendsTrivia:hover {
-  opacity: 1;
-}
-
-.textFriendsTrivia {
-  color: white;
-  font-size: 25px;
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.containerFriendsTriviaClicked {
-  background: white;
-  padding: 20px 20px 50px 20px;
-  position: fixed;
-  top: -250px;
-  visibility: hidden;
-  width: 75%;
-  z-index: 100;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
- /*  -moz-box-shadow:    3px 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
- /* box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-/*}
-
-.closecontainerFriendsTriviaClicked {
-  background: white;
-  border: 0;
-  font-size: 20px;
-  left: 90%;
-  padding: 12px 5px 0px 5px;
-  position: absolute;
-}
-
-.imageFriendsTriviaClicked {
-  width: 60%;
-} */
 
 .containerTheBigBangTheoryTrivia {
   position: relative;
@@ -1457,7 +1290,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerTheBigBangTheoryTriviaClicked {
@@ -1532,7 +1364,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerMovieDatabaseClicked {
@@ -1607,7 +1438,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerWeatherAppClicked {
@@ -1682,7 +1512,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerBlogWebsiteClicked {
@@ -1757,7 +1586,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  /* text-shadow: 0px 1px 4px gray; */
 }
 
 .containerPricingComponentWithToggleClicked {
@@ -1828,19 +1656,15 @@ button[type=submit] {
 button[type=submit]:hover {
   background-color: #eb6123;
   border: solid 2px #eb6123;
-  /* background-color: #E31B6D;
-  border: solid 2px #E31B6D; */
 }
 
 .social-links {
   display: flex;
   flex-direction: row;
-  /* margin: 10px auto 80px; */
   justify-content: center;
 }
 
 .github-logo {
-  /* display: flex; */
   height: 40px;
   margin: 10px 10px 80px 10px;
 }
@@ -1850,7 +1674,6 @@ button[type=submit]:hover {
 }
 
 .linkedin-logo {
-  /* display: flex; */
   height: 40px;
   margin: 10px 10px 80px 10px;
 }
