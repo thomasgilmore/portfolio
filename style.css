@@ -622,6 +622,154 @@
   opacity: 0.5;
 }
 
+.containerMoodyCreatureSociety {
+  position: relative;
+  width: 25%;
+}
+
+.imageMoodyCreatureSociety {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayMoodyCreatureSociety {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/moody-creature-society.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-image-repeat: stretch;
+}
+
+.containerMoodyCreatureSociety:hover {
+  opacity: 1;
+}
+
+.overlayMoodyCreatureSociety:hover {
+  opacity: 1;
+}
+
+.textMoodyCreatureSociety {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.containerMoodyCreatureSocietyClicked {
+  background: white;
+  padding: 20px 20px 50px 20px;
+  position: fixed;
+  top: -250px;
+  visibility: hidden;
+  width: 75%;
+  z-index: 100;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.closecontainerMoodyCreatureSocietyClicked {
+  background: white;
+  border: 0;
+  font-size: 20px;
+  left: 90%;
+  padding: 12px 5px 0px 5px;
+  position: absolute;
+}
+
+.imageMoodyCreatureSocietyClicked {
+  width: 60%;
+}
+
+.containerObscurite {
+  position: relative;
+  width: 25%;
+}
+
+.imageObscurite {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayObscurite {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(./img/projects/obscurite.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-image-repeat: stretch;
+}
+
+.containerObscurite:hover {
+  opacity: 1;
+}
+
+.overlayObscurite:hover {
+  opacity: 1;
+}
+
+.textObscurite {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.containerObscuriteClicked {
+  background: white;
+  padding: 20px 20px 50px 20px;
+  position: fixed;
+  top: -250px;
+  visibility: hidden;
+  width: 75%;
+  z-index: 100;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.closecontainerObscuriteClicked {
+  background: white;
+  border: 0;
+  font-size: 20px;
+  left: 90%;
+  padding: 12px 5px 0px 5px;
+  position: absolute;
+}
+
+.imageObscuriteClicked {
+  width: 60%;
+}
+
 .containerWineRecommendationsVersion2 {
   position: relative;
   width: 25%;
